@@ -2,10 +2,11 @@
   <img src="docs/readme/banner.png" alt="NoNutHub: the tab you open instead" width="100%">
 </p>
 
-<h3 align="center">The tab you open instead. Twelve study-backed videos for No Nut November, zero adult content.</h3>
+<h3 align="center">The tab you open instead. 36 real videos that help against an urge, sorted by what the research says works.</h3>
 
 <p align="center">
   <a href="https://eneserdo.github.io/nonuthub/"><img alt="Live site" src="https://img.shields.io/badge/live-eneserdo.github.io%2Fnonuthub-ff9000?style=flat-square"></a>
+  <img alt="Videos" src="https://img.shields.io/badge/videos-36-ff9000?style=flat-square&labelColor=1b1b1b">
   <img alt="Studies" src="https://img.shields.io/badge/studies-13%20with%20DOI-ff9000?style=flat-square&labelColor=1b1b1b">
   <img alt="Adult content" src="https://img.shields.io/badge/adult%20content-none-1b1b1b?style=flat-square">
   <img alt="Tracking" src="https://img.shields.io/badge/tracking-none-1b1b1b?style=flat-square">
@@ -14,55 +15,58 @@
 
 <p align="center">
   <a href="https://eneserdo.github.io/nonuthub/"><b>Open NoNutHub</b></a> ·
-  <a href="https://eneserdo.github.io/nonuthub/#/watch/blocks">play 3 minutes of falling blocks</a> ·
+  <a href="https://eneserdo.github.io/nonuthub/#/watch/pXWQXDxXg5U">start with a 3 minute urge surf</a> ·
   <a href="https://eneserdo.github.io/nonuthub/#/research">read the research</a>
 </p>
 
 ---
 
 NoNutHub looks like the site you were about to open: black and orange, a search bar, a grid of thumbnails with
-durations and HD badges, a player with an orange progress bar. Every video is something else. Each one is a 1 to 10
-minute exercise that runs in your browser (an urge-surfing wave, a playable block game, a push-up counter, a cold
-shower timer, an if-then planner) and each one is built on a published study, linked by DOI under the player.
+durations, view counts and HD badges, a player, "Up next". The videos are something else: guided urge surfing,
+Wim Hof breathing, follow-along push-ups, cold-shower science, Bob Ross, Pasta Grannies, Primitive Technology,
+train cab rides and talks on habits and porn. Every category is built on a published study, linked by DOI under the player.
+
+The idea has company: Pornhub itself once launched [ScrubHub](https://www.timeout.com/hong-kong/news/pornhub-releases-scrubhub-a-parody-site-filled-with-handwashing-videos-042120),
+a safe-for-work copy of its site with only hand-washing videos, and blockers like the
+[NoFap Panic Button](https://chrome.google.com/webstore/detail/nofap-panic-button/dgoanlacpjfionnlbhnecopndppgbkfo) and
+[Focus Guard](https://microsoftedge.microsoft.com/addons/detail/jbpbgajidbalefbfcokpkleefeeobcnp) swap adult pages for
+motivational videos. NoNutHub puts the swap where the habit already goes, and sorts the videos by what the research supports.
 
 ## Preview
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/readme/home.png" alt="Home page"><br><sub><b>Home.</b> The familiar grid. Every thumbnail is a frame of the real exercise and plays a preview on hover.</sub></td>
-    <td width="50%"><img src="docs/readme/watch.png" alt="Player with the block game"><br><sub><b>Player.</b> Three minutes of falling blocks, the dose that lowered cravings in Skorka-Brown et al. (2015).</sub></td>
+    <td width="50%"><img src="docs/readme/home.png" alt="Home page"><br><sub><b>Home.</b> The familiar grid with real videos. Hovering a thumbnail flips through frames of the video.</sub></td>
+    <td width="50%"><img src="docs/readme/watch.png" alt="Watch page"><br><sub><b>Watch page.</b> YouTube's own player loads on click; below it, why this category helps and the studies.</sub></td>
   </tr>
   <tr>
-    <td><img src="docs/readme/search.png" alt="Search with no results"><br><sub><b>Search.</b> Whatever you type, you get the exercises instead.</sub></td>
-    <td><img src="docs/readme/research.png" alt="Research table"><br><sub><b>Research.</b> Thirteen studies, what each found, and which videos use it.</sub></td>
+    <td><img src="docs/readme/category.png" alt="Brain Off category"><br><sub><b>Categories.</b> Each one says which study it rests on and what that study did and did not show.</sub></td>
+    <td><img src="docs/readme/search.png" alt="Search with no results"><br><sub><b>Search.</b> Whatever you type, you get these instead.</sub></td>
   </tr>
   <tr>
-    <td><img src="docs/readme/streak.png" alt="November tracker"><br><sub><b>My November.</b> A 30-day calendar and your if-then plan. A slip resets the streak, never the clean days.</sub></td>
-    <td><img src="docs/readme/gate.png" alt="Entry dialog"><br><sub><b>Entry dialog.</b> "This is a no-nut website."</sub></td>
+    <td><img src="docs/readme/research.png" alt="Research table"><br><sub><b>Research.</b> Thirteen studies with DOI, what each found, which category uses it.</sub></td>
+    <td><img src="docs/readme/streak.png" alt="November tracker"><br><sub><b>My November.</b> 30-day calendar and an if-then plan. A slip resets the streak, never the clean days.</sub></td>
   </tr>
 </table>
 
 <p align="center">
   <img src="docs/readme/mobile.png" alt="Home on a phone" width="260">&nbsp;&nbsp;&nbsp;
-  <img src="docs/readme/mobile-watch.png" alt="Push-up video on a phone" width="260">
+  <img src="docs/readme/mobile-watch.png" alt="Watch page on a phone" width="260">
 </p>
 
 ## The videos
 
-| Video | Length | What you do | Built on |
-|---|---|---|---|
-| [Urge goes up, urge goes down](https://eneserdo.github.io/nonuthub/#/watch/urge-wave) | 10:00 | Watch an urge wave rise and fall with prompts, do nothing else | Bowen & Marlatt 2009 |
-| [3 minutes of falling blocks](https://eneserdo.github.io/nonuthub/#/watch/blocks) | 3:00 | Play a block game (keyboard or touch) | Skorka-Brown et al. 2015, Kavanagh et al. 2005 |
-| [20 push-ups, right now](https://eneserdo.github.io/nonuthub/#/watch/pushups) | 2:00 | Follow the pace, press after each rep | Taylor et al. 2007 |
-| [Leaving the room for 10 minutes](https://eneserdo.github.io/nonuthub/#/watch/walk) | 10:00 | Walk timer with prompts | Taylor et al. 2007, Duckworth et al. 2016 |
-| [Slow breathing, 6 per minute](https://eneserdo.github.io/nonuthub/#/watch/breathe) | 5:00 | 30 guided breaths | Zaccaro et al. 2018 |
-| [The 90 second shower](https://eneserdo.github.io/nonuthub/#/watch/cold) | 1:30 | Cold-water countdown in 30 s steps | Buijze et al. 2016 |
-| [The one sentence that stops autopilot](https://eneserdo.github.io/nonuthub/#/watch/ifthen) | 2:00 | Write and save an if-then plan | Gollwitzer & Sheeran 2006 |
-| [The day 7 testosterone study was retracted](https://eneserdo.github.io/nonuthub/#/watch/testo) | 4:00 | The claim, then the retraction | Jiang et al. 2003 (retracted 2021), Fernandez et al. 2020 |
-| [66 days, explained](https://eneserdo.github.io/nonuthub/#/watch/habit) | 3:00 | The habit curve against November | Lally et al. 2010 |
-| [205 adults, a beeper and 7,827 desires](https://eneserdo.github.io/nonuthub/#/watch/beeper) | 2:30 | Every desire logged in one week | Hofmann et al. 2012 |
-| [You slipped. What next?](https://eneserdo.github.io/nonuthub/#/watch/slip) | 3:00 | What to do instead of shame | Grubbs et al. 2019, Lally et al. 2010 |
-| [Phone out of the bedroom](https://eneserdo.github.io/nonuthub/#/watch/phone) | 2:00 | Tick off six setup steps | Duckworth et al. 2016 |
+36 public YouTube videos from the channels that made them, in seven categories. Each category page says which study it rests on.
+
+| Category | Videos |
+|---|---|
+| **Ride the Urge** | [Urge Surfing Meditation](https://eneserdo.github.io/nonuthub/#/watch/dHzS_RBtnXE) (Eating Recovery Center, 7:54)<br>[3-Minute Urge Surfing Mindfulness Meditation](https://eneserdo.github.io/nonuthub/#/watch/pXWQXDxXg5U) (Kernel of Wisdom - Mental Health & Mindfulness, 3:29)<br>[Guided Meditation for Urges (No Music, Voice Only, 10 Mins)](https://eneserdo.github.io/nonuthub/#/watch/RJ8cQm3Lzh8) (Declutter The Mind, 11:19) |
+| **Breathe** | [Guided Wim Hof Method Breathing](https://eneserdo.github.io/nonuthub/#/watch/tybOi4hjZFQ) (Wim Hof, 11:00)<br>[Wim Hof Method Guided Breathing for Beginners (3 Rounds Slow Pace)](https://eneserdo.github.io/nonuthub/#/watch/0BNejY1e9ik) (Wim Hof, 11:00)<br>[5 Minutes Box Breathing Relaxation Exercise – Beginner Pace – Anxiety Reduction Pranayama Technique](https://eneserdo.github.io/nonuthub/#/watch/oN8xV3Kb5-Q) (Hands-On Meditation, 6:53)<br>[5 Minute Box Breathing Exercise to Release Stress](https://eneserdo.github.io/nonuthub/#/watch/LwUyeKUred8) (Pocket Breath Coach - Luke Horton, 5:01) |
+| **Sweat It Out** | [Guided 100 Push Up Workout!](https://eneserdo.github.io/nonuthub/#/watch/b5e8QwnKAP0) (Jordan Yeoh Fitness, 9:46)<br>[100 Pushups Workout – Do This Everyday](https://eneserdo.github.io/nonuthub/#/watch/ypxmdLxCK7k) (THENX, 9:28)<br>[10-Minute Fast Walking Workout With Tanner Courtad](https://eneserdo.github.io/nonuthub/#/watch/KaIeBaxzIqs) (PS Fit, 9:52)<br>[10 Minute Beginner Full Body Stretch](https://eneserdo.github.io/nonuthub/#/watch/LnCQ-MECZSw) (Bob & Brad, 10:52) |
+| **Cold Water** | [Can Cold Showers Actually Change Your Life?](https://eneserdo.github.io/nonuthub/#/watch/HsonXuJs8-s) (SciShow, 4:12)<br>[What Happens To Body After 30 Days Cold Showers (Science Explained)](https://eneserdo.github.io/nonuthub/#/watch/fxICyViHCSw) (Jeremy Ethier, 9:40)<br>[Deliberate Cold Exposure — How to Do it RIGHT with Dr. Andrew Huberman – The Proof Podcast EP 205](https://eneserdo.github.io/nonuthub/#/watch/2XecbuI-9QE) (The Proof with Simon Hill, 5:52)<br>[Wim Hof's Top 10 reasons to take cold showers & ice baths 🧊](https://eneserdo.github.io/nonuthub/#/watch/7FlmpnsbciQ) (Wim Hof, 8:08) |
+| **Brain Off** | [Bob Ross - Towering Peaks (Season 10 Episode 1)](https://eneserdo.github.io/nonuthub/#/watch/1s58rW0_LN4) (Bob Ross, 28:03)<br>[Bob Ross - Campfire (Season 3 Episode 10)](https://eneserdo.github.io/nonuthub/#/watch/L5bXkI0-pEg) (Bob Ross, 26:33)<br>[91 year old Maria shares her lasagna recipe with Pasta Grannies!](https://eneserdo.github.io/nonuthub/#/watch/4UTrEpVKhKM) (Pasta Grannies, 7:09)<br>[90yr old identical twins Annita & Maria make lasagna! – Pasta Grannies](https://eneserdo.github.io/nonuthub/#/watch/L6RDHiazUWo) (Pasta Grannies, 8:25)<br>[Primitive Technology: Lime](https://eneserdo.github.io/nonuthub/#/watch/Ek3aeUhHaFY) (Primitive Technology, 7:08)<br>[Primitive Technology: Purifying Clay By Sedimentation and Making Pots](https://eneserdo.github.io/nonuthub/#/watch/k2RKtUh6m3Q) (Primitive Technology, 10:53)<br>[Top 100 Best Hydraulic Press Moments – Satisfying Crushing Compilation](https://eneserdo.github.io/nonuthub/#/watch/q9BtYEnrkg4) (Hydraulic Press Channel, 12:49)<br>[I Did Not Expect This: 3 Years in Rust Remover](https://eneserdo.github.io/nonuthub/#/watch/7gsghuBZm_w) (Hand Tool Rescue, 12:24)<br>[Someone paid an equivalent of $2000 for this in 1914 [Restoration]](https://eneserdo.github.io/nonuthub/#/watch/rw_8FWJuSho) (Hand Tool Rescue, 35:48)<br>[HILARIOUS Guess The Elo](https://eneserdo.github.io/nonuthub/#/watch/739ZErzO34U) (GothamChess, 31:14)<br>[This machine breaks things.](https://eneserdo.github.io/nonuthub/#/watch/-E47v4Oy7fE) (Tom Scott, 23:17) |
+| **Touch Grass** | [Train Driver view – Bernina Express Line Switzerland – Cab ride 4K 60p HDR](https://eneserdo.github.io/nonuthub/#/watch/vh-QpuWuiEo) (AKSense - Zurich, 28:26)<br>[The Most Beautiful Nature Walk in Scotland l Walking Tour 4K HDR 60fps](https://eneserdo.github.io/nonuthub/#/watch/FQkekOTMFPg) (Scotland's Wild, 1:04:50)<br>[Walking in the Rain through Old Growth Forest – Yakushima, Japan](https://eneserdo.github.io/nonuthub/#/watch/-qPcvFVB-yg) (Ambient Exploration, 1:07:46) |
+| **Why Quit** | [A Simple Way to Break a Bad Habit – Judson Brewer – TED](https://eneserdo.github.io/nonuthub/#/watch/-moW9jvvMr4) (TED, 9:25)<br>[Why is it so hard to break a bad habit?](https://eneserdo.github.io/nonuthub/#/watch/wr6fQ4KpbRM) (TED-Ed, 5:04)<br>[Why I stopped watching porn – Ran Gavrieli – TEDxJaffa](https://eneserdo.github.io/nonuthub/#/watch/gRJ_QfP2mhU) (TEDx Talks, 15:58)<br>[Pornography Isn't Your Problem – Jason Mahr – TEDxCincinnati](https://eneserdo.github.io/nonuthub/#/watch/vIgWMzdgweI) (TEDx Talks, 7:09)<br>[Dopamine Nation: Finding Balance in the Age of Indulgence with Anna Lembke](https://eneserdo.github.io/nonuthub/#/watch/n2u8Z1HeKD8) (Stanford Alumni, 13:27)<br>[Improve Your Baseline Dopamine for Motivation & Drive – Dr. Andrew Huberman](https://eneserdo.github.io/nonuthub/#/watch/35lS7gJVTyA) (Huberman Lab Clips, 8:04)<br>[What sex ed doesn’t tell you about your brain - Shannon Odell](https://eneserdo.github.io/nonuthub/#/watch/deNGkzUlhZU) (TED-Ed, 5:09) |
 
 ## What the research says
 
@@ -90,25 +94,26 @@ Every DOI on this page and on the site was checked against Crossref and PubMed.
 
 ## How it works
 
-Plain HTML, CSS and JavaScript modules in [`docs/`](docs), served by GitHub Pages. No framework, no build step, no
-external requests.
+Plain HTML, CSS and JavaScript modules in [`docs/`](docs), served by GitHub Pages. No framework, no build step.
+Thumbnails come from `i.ytimg.com`; the player is YouTube's privacy-enhanced embed (`youtube-nocookie.com`) and loads
+only when you press play.
 
 ```
 docs/
   index.html      header, navigation, entry dialog, footer
   style.css       the black and orange theme
-  data.js         the 13 studies, 4 categories and 12 videos
-  scenes.js       one canvas renderer per video; thumbnails are the same renderer at a fixed second
+  data.js         the 13 studies, 7 categories and 36 videos
   app.js          hash router, grid, player, search, research table, November tracker
   readme/         banner source and the screenshots in this README
 tools/
+  videos_meta.json  video ids, titles and channels (YouTube oEmbed), lengths and views (YouTube search), 2026-10-31
   serve.py        local server with the right MIME types
   shots.py        clicks through every page in Chrome, fails on console errors, renders the README images
 ```
 
-The player runs each scene on a `requestAnimationFrame` clock: play, pause, seek, fullscreen and space bar work like
-a normal video. Interactive videos add controls under the frame. Votes, your if-then plan, the setup checklist and
-your November calendar are stored in `localStorage` and never leave the browser.
+Only videos whose owners allow embedding are listed (checked with YouTube's oEmbed endpoint). Nothing is downloaded or
+re-hosted: views go to the channels that made the videos. Votes, your if-then plan and your November calendar are
+stored in `localStorage` and never leave the browser.
 
 ## Development
 
@@ -117,8 +122,8 @@ python tools/serve.py 8090      # http://127.0.0.1:8090/
 python tools/shots.py           # smoke test + README images (needs: pip install playwright)
 ```
 
-Suggest a video: [open an issue](https://github.com/eneserdo/nonuthub/issues/new) with the study (DOI link) and what
-the exercise would do.
+Suggest a video: [open an issue](https://github.com/eneserdo/nonuthub/issues/new) with the YouTube link and the category
+it belongs in.
 
 ## Notes
 
@@ -126,7 +131,8 @@ the exercise would do.
   endorsed by or connected to any adult website; the logo and all code here are original.
 - Not medical advice. Masturbation is not harmful. If porn or masturbation feels out of your control or hurts your
   life, talk to a doctor or a counsellor.
-- The channel names (NoNut Science, Touch Grass TV, Cold Water Club, Brain Games, Plan B) are made up. The studies are real.
+- The videos belong to their channels and are shown with YouTube's embed player. The personal talks in Why Quit are
+  opinions, not evidence; the research page says what the studies show.
 
 ## License
 

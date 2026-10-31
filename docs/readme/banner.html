@@ -13,30 +13,27 @@
   .copy p { margin: 34px 0 0; font: bold 34px/1.2 Arial, Helvetica, sans-serif; }
   .copy small { display: block; margin-top: 16px; color: #a8a8a8; font: 21px/1.45 Arial, Helvetica, sans-serif; }
   .copy .url { display: block; margin-top: 30px; color: #ff9000; font: bold 19px Arial, Helvetica, sans-serif; }
-  .shots { position: absolute; right: 56px; top: 64px; width: 560px; display: grid; gap: 22px; }
-  .shots figure { margin: 0; display: grid; grid-template-columns: 250px 1fr; gap: 14px; align-items: center; }
-  .shots .thumb { width: 250px; }
-  .shots figcaption b { display: block; font: bold 17px/1.3 Arial, Helvetica, sans-serif; }
-  .shots figcaption span { color: #a8a8a8; font: 14px Arial, Helvetica, sans-serif; }
+  .cats { position: absolute; right: 64px; top: 114px; width: 520px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .cats div { padding: 18px 18px 16px; background: #151515; border-left: 4px solid #ff9000; border-radius: 3px; }
+  .cats b { display: block; font: bold 22px Arial, Helvetica, sans-serif; }
+  .cats span { display: block; margin-top: 4px; color: #a8a8a8; font: 15px Arial, Helvetica, sans-serif; }
+  .cats em { display: block; margin-top: 10px; color: #ff9000; font: bold 13px Arial, Helvetica, sans-serif; font-style: normal; }
 </style>
 </head>
 <body>
   <div class="copy">
     <span class="logo"><span class="l1">NoNut</span><span class="l2">Hub</span></span>
     <p>The tab you open instead.</p>
-    <small>Twelve videos for No Nut November. Each one is a 1 to 10 minute exercise against an urge, built on a published study.</small>
+    <small>Real videos that help against an urge, from guided urge surfing to Bob Ross, sorted by what the research says works.</small>
     <span class="url">eneserdo.github.io/nonuthub</span>
   </div>
-  <div class="shots" id="shots"></div>
+  <div class="cats" id="cats"></div>
 <script type="module">
-  import { VIDEOS, STUDIES } from "../data.js";
-  import { SCENES, FLAGS, W, H, clock } from "../scenes.js";
-  for (const id of ["blocks", "testo", "urge-wave"]) {
-    const v = VIDEOS.find(x => x.id === id), f = document.createElement("figure");
-    f.innerHTML = `<div class="thumb"><canvas width="500" height="281"></canvas><span class="badge ${v.badge === "PLAYABLE" ? "play" : ""}">${v.badge}</span><span class="dur">${clock(v.dur)}</span></div>
-      <figcaption><b>${v.title}</b><span>${STUDIES[v.study].cite}</span></figcaption>`;
-    const cv = f.querySelector("canvas"), c = cv.getContext("2d"); c.setTransform(cv.width / W, 0, 0, cv.height / H, 0, 0);
-    FLAGS.thumb = true; SCENES[id].draw(c, SCENES[id].thumbT, { thumb: true }); document.getElementById("shots").append(f);
+  import { CATEGORIES, VIDEOS, STUDIES } from "../data.js";
+  for (const c of CATEGORIES.slice(0, 6)) {
+    const d = document.createElement("div");
+    d.innerHTML = `<b>${c.name}</b><span>${c.desc}, ${VIDEOS.filter(v => v.cat === c.id).length} videos</span><em>${STUDIES[c.studies[0]].cite}</em>`;
+    document.getElementById("cats").append(d);
   }
 </script>
 </body>

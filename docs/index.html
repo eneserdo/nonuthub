@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NoNutHub</title>
+<meta name="description" content="The tab you open instead. Every video is a 1 to 10 minute exercise against an urge, built on a published study. A No Nut November parody with zero adult content.">
+<meta property="og:title" content="NoNutHub">
+<meta property="og:description" content="The tab you open instead. Twelve study-backed videos for No Nut November, zero adult content.">
+<meta property="og:image" content="https://eneserdo.github.io/nonuthub/og.png">
+<meta property="og:url" content="https://eneserdo.github.io/nonuthub/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">
+  <span id="nov-label">No Nut November 2026</span>
+  <div id="nov-bar"><i></i></div>
+  <a href="#/research">Why this works</a>
+</div>
+
+<header class="head">
+  <button id="menu" class="menu" aria-label="Menu"><span></span><span></span><span></span></button>
+  <a class="logo" href="#/" aria-label="NoNutHub home"><span class="l1">NoNut</span><span class="l2">Hub</span></a>
+  <form id="search" class="search" role="search">
+    <input id="q" type="search" placeholder="Search 12 videos you won't regret" autocomplete="off" aria-label="Search">
+    <button aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+  </form>
+  <div class="right">
+    <a class="upload" href="https://github.com/eneserdo/nonuthub/issues/new?title=Video%20idea%3A%20&body=Study%20(DOI%20link)%3A%0A%0AWhat%20the%20video%20would%20do%3A%0A" target="_blank" rel="noopener">Suggest a video</a>
+    <a id="streak-pill" class="pill" href="#/streak"><b>Day 0</b></a>
+  </div>
+</header>
+
+<nav class="nav">
+  <a href="#/" data-r="home">Home</a>
+  <a href="#/videos" data-r="videos">Videos</a>
+  <a href="#/categories" data-r="categories">Categories</a>
+  <a href="#/videos?s=playable" data-r="playable">Playable</a>
+  <a href="#/streak" data-r="streak">My November</a>
+  <a href="#/research" data-r="research">Research</a>
+  <a href="https://github.com/eneserdo/nonuthub" target="_blank" rel="noopener">Source code</a>
+</nav>
+
+<main id="main" class="wrap"></main>
+
+<footer class="foot">
+  <div class="wrap cols">
+    <a class="logo small" href="#/"><span class="l1">NoNut</span><span class="l2">Hub</span></a>
+    <div><h4>Site</h4><a href="#/videos">All videos</a><a href="#/categories">Categories</a><a href="#/streak">My November</a></div>
+    <div><h4>About</h4><a href="#/research">Research</a><a href="https://github.com/eneserdo/nonuthub">Source code</a><a href="https://github.com/eneserdo/nonuthub/issues">Suggest a video</a></div>
+    <p class="legal">A No Nut November parody with no adult content. Not affiliated with, endorsed by or connected to any adult website.
+      No accounts, cookies or tracking: votes, plans and your streak stay in this browser. Not medical advice; if porn or masturbation
+      feels out of your control, talk to a doctor or counsellor.</p>
+  </div>
+</footer>
+
+<div id="gate" class="gate" role="dialog" aria-modal="true" aria-labelledby="gate-h">
+  <div class="gate-box">
+    <a class="logo" href="#/"><span class="l1">NoNut</span><span class="l2">Hub</span></a>
+    <h2 id="gate-h">This is a no-nut website</h2>
+    <p>NoNutHub has no adult content. It is the tab you open instead. Every video is a 1 to 10 minute exercise against an urge,
+      built on a published study.</p>
+    <button id="enter" class="btn btn-or big">I want to stay strong - Enter</button>
+    <a class="exit" href="https://en.wikipedia.org/wiki/No_Nut_November">Take me back</a>
+    <small>Your streak, plans and votes stay in this browser. Nothing is sent anywhere.</small>
+  </div>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

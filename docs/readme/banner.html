@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>NoNutHub banner</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+  /* Source of docs/readme/banner.png and docs/og.png: python tools/shots.py */
+  html, body { margin: 0; width: 1280px; height: 640px; overflow: hidden; background: #000; }
+  .copy { position: absolute; left: 72px; top: 150px; width: 560px; }
+  .copy .logo { font-size: 92px; letter-spacing: -2px; }
+  .copy .logo .l2 { border-radius: 12px; padding: 4px 16px 8px; }
+  .copy p { margin: 34px 0 0; font: bold 34px/1.2 Arial, Helvetica, sans-serif; }
+  .copy small { display: block; margin-top: 16px; color: #a8a8a8; font: 21px/1.45 Arial, Helvetica, sans-serif; }
+  .copy .url { display: block; margin-top: 30px; color: #ff9000; font: bold 19px Arial, Helvetica, sans-serif; }
+  .shots { position: absolute; right: 56px; top: 64px; width: 560px; display: grid; gap: 22px; }
+  .shots figure { margin: 0; display: grid; grid-template-columns: 250px 1fr; gap: 14px; align-items: center; }
+  .shots .thumb { width: 250px; }
+  .shots figcaption b { display: block; font: bold 17px/1.3 Arial, Helvetica, sans-serif; }
+  .shots figcaption span { color: #a8a8a8; font: 14px Arial, Helvetica, sans-serif; }
+</style>
+</head>
+<body>
+  <div class="copy">
+    <span class="logo"><span class="l1">NoNut</span><span class="l2">Hub</span></span>
+    <p>The tab you open instead.</p>
+    <small>Twelve videos for No Nut November. Each one is a 1 to 10 minute exercise against an urge, built on a published study.</small>
+    <span class="url">eneserdo.github.io/nonuthub</span>
+  </div>
+  <div class="shots" id="shots"></div>
+<script type="module">
+  import { VIDEOS, STUDIES } from "../data.js";
+  import { SCENES, FLAGS, W, H, clock } from "../scenes.js";
+  for (const id of ["blocks", "testo", "urge-wave"]) {
+    const v = VIDEOS.find(x => x.id === id), f = document.createElement("figure");
+    f.innerHTML = `<div class="thumb"><canvas width="500" height="281"></canvas><span class="badge ${v.badge === "PLAYABLE" ? "play" : ""}">${v.badge}</span><span class="dur">${clock(v.dur)}</span></div>
+      <figcaption><b>${v.title}</b><span>${STUDIES[v.study].cite}</span></figcaption>`;
+    const cv = f.querySelector("canvas"), c = cv.getContext("2d"); c.setTransform(cv.width / W, 0, 0, cv.height / H, 0, 0);
+    FLAGS.thumb = true; SCENES[id].draw(c, SCENES[id].thumbT, { thumb: true }); document.getElementById("shots").append(f);
+  }
+</script>
+</body>
+</html>

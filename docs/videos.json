@@ -5,7 +5,7 @@
 "id": "sG7DBA-mgFY",
 "cat": "urge",
 "sec": 610,
-"views": 2733544,
+"views": 2733546,
 "age": "6 years ago",
 "ch": "Headspace",
 "title": "10-Minute Meditation to Reframe Stress"
@@ -29,15 +29,6 @@
 "title": "DBT - Mindfulness - Urge Surfing"
 },
 {
-"id": "tQ_oULcMQNM",
-"cat": "urge",
-"sec": 932,
-"views": 44637,
-"age": "2 years ago",
-"ch": "Declutter The Mind",
-"title": "15-Minute Guided Meditation for Self-Control | Strengthen Your Mind and Focus"
-},
-{
 "id": "_vM_BMbQPAk",
 "cat": "urge",
 "sec": 948,
@@ -56,6 +47,15 @@
 "title": "Guided Meditation for Cravings and Addiction (20 Minutes) No Music"
 },
 {
+"id": "-8gdDqHMkLI",
+"cat": "urge",
+"sec": 207,
+"views": 9813,
+"age": "10 years ago",
+"ch": "Kernel of Wisdom - Mental Health & Mindfulness",
+"title": "Urge Surfing with Mindfulness Meditation"
+},
+{
 "id": "Yb7-nMXRmc4",
 "cat": "urge",
 "sec": 451,
@@ -68,19 +68,10 @@
 "id": "CrozRVX5T_o",
 "cat": "urge",
 "sec": 426,
-"views": 340203,
+"views": 340204,
 "age": "4 years ago",
 "ch": "Hum Jeetenge",
 "title": "How to Improve Self Control. Urge Surfing Meditation"
-},
-{
-"id": "q-QITSveufg",
-"cat": "urge",
-"sec": 485,
-"views": 301586,
-"age": "3 years ago",
-"ch": "Priory",
-"title": "Guided Meditation to Get Rid of Stress | The Surfing Meditation"
 },
 {
 "id": "jfhMlfxaIvw",
@@ -104,7 +95,7 @@
 "id": "7z4LEm2NLGk",
 "cat": "urge",
 "sec": 966,
-"views": 94156,
+"views": 94157,
 "age": "5 years ago",
 "ch": "Fostering Resilience",
 "title": "Meditation for Dealing with Addiction"
@@ -113,10 +104,19 @@
 "id": "ASG1c1EqXyc",
 "cat": "urge",
 "sec": 1066,
-"views": 51259,
+"views": 51266,
 "age": "2 years ago",
 "ch": "Therapy in ACTion",
 "title": "Urge Surfing Demonstration and Explanation by a Therapist | Effectively manage cravings and urges"
+},
+{
+"id": "__0dNKJV0zo",
+"cat": "urge",
+"sec": 760,
+"views": 43298,
+"age": "12 years ago",
+"ch": "Naomi Goodlet",
+"title": "Urge Surfing Mindfulness Exercise With Naomi Goodlet"
 },
 {
 "id": "imzq3p8Bxmc",
@@ -131,7 +131,7 @@
 "id": "nzCaZQqAs9I",
 "cat": "breathe",
 "sec": 608,
-"views": 13189233,
+"views": 13189241,
 "age": "8 years ago",
 "ch": "Wim Hof",
 "title": "Wim Hof breathing tutorial by Wim Hof"
@@ -158,10 +158,19 @@
 "id": "Cuxppurd-tw",
 "cat": "breathe",
 "sec": 875,
-"views": 3493687,
+"views": 3493694,
 "age": "4 years ago",
 "ch": "Breath Central",
 "title": "Wim Hof Guided Breathing Session - 4 Rounds For Beginners No Talking"
+},
+{
+"id": "1Dv-ldGLnIY",
+"cat": "breathe",
+"sec": 243,
+"views": 1960168,
+"age": "6 years ago",
+"ch": "Hands-On Meditation",
+"title": "4-7-8 Calm Breathing Exercise | Relaxing Breath Technique | Extended Breaths | Pranayama Exercise"
 },
 {
 "id": "6saiJYwaOTQ",
@@ -171,15 +180,6 @@
 "age": "6 months ago",
 "ch": "Wim Hof",
 "title": "Guided Wim Hof Breathwork | 5 Rounds"
-},
-{
-"id": "YkE8AObpzm4",
-"cat": "breathe",
-"sec": 975,
-"views": 1381785,
-"age": "4 years ago",
-"ch": "Breath Central",
-"title": "Wim Hof Guided Breathing Session - 4 Rounds Intermediate No Talking"
 },
 {
 "id": "u8j7Ir_cg0M",
@@ -212,7 +212,7 @@
 "id": "lEzaFx8k7Ew",
 "cat": "breathe",
 "sec": 960,
-"views": 573084,
+"views": 573085,
 "age": "3 years ago",
 "ch": "Hands-On Meditation",
 "title": "4-7-8 Calm Breathing Exercise | 15 Minutes of Deep Relaxation | Anxiety Relief | Pranayama Exercise"
@@ -221,7 +221,7 @@
 "id": "aPYmZOhJF5Q",
 "cat": "breathe",
 "sec": 326,
-"views": 562115,
+"views": 562113,
 "age": "6 years ago",
 "ch": "Feeling Healing",
 "title": "Guided Box Breathing - 5 Minute Meditation (4-4-4-4)"
@@ -230,7 +230,7 @@
 "id": "XGKnQN7zUmw",
 "cat": "breathe",
 "sec": 630,
-"views": 483646,
+"views": 483645,
 "age": "7 years ago",
 "ch": "Feeling Healing",
 "title": "10 Minute Box Breathing Meditation || Pranayama"
@@ -239,7 +239,7 @@
 "id": "2M0yhiUmHpo",
 "cat": "breathe",
 "sec": 526,
-"views": 452000,
+"views": 452001,
 "age": "1 year ago",
 "ch": "Huberman Lab Clips",
 "title": "Simple Tool to Boost Heart Rate Variability (HRV) | Dr. Andrew Huberman"
@@ -254,10 +254,19 @@
 "title": "Ultimate Relaxation: Wim Hof Alternative Breathing Exercise (Slow Pace) | 2 Minute Breath-Hold"
 },
 {
+"id": "moHy2jXzwpE",
+"cat": "breathe",
+"sec": 1435,
+"views": 431818,
+"age": "3 years ago",
+"ch": "Breath Central",
+"title": "Wim Hof Guided Breathing Session - 5 Rounds 40 Breaths Extreme No Talking"
+},
+{
 "id": "Rt08wzTYKHg",
 "cat": "breathe",
 "sec": 305,
-"views": 382996,
+"views": 383003,
 "age": "1 year ago",
 "ch": "Pocket Breath Coach - Luke Horton",
 "title": "4-4-4-4 Breathing Exercise | Box Breathing for Calm and Focus"
@@ -272,49 +281,22 @@
 "title": "10 Minutes Box Breathing Relaxation Exercise | Beginner Pace | Anxiety Reduction Pranayama Technique"
 },
 {
-"id": "zq07gbFLCAs",
+"id": "t96vVPgL9aI",
 "cat": "breathe",
-"sec": 328,
-"views": 313324,
+"sec": 617,
+"views": 198120,
 "age": "6 years ago",
 "ch": "Feeling Healing",
-"title": "Guided Box Breathing - 5 Minute Meditation (5-5-5-5)"
-},
-{
-"id": "T1SqOQH8KR4",
-"cat": "breathe",
-"sec": 1345,
-"views": 255982,
-"age": "3 years ago",
-"ch": "Breath Central",
-"title": "Wim Hof Guided Breathing Session - 5 Rounds 30 Breaths Extreme No Talking"
-},
-{
-"id": "ED68bY91Mmk",
-"cat": "breathe",
-"sec": 1715,
-"views": 222177,
-"age": "3 years ago",
-"ch": "Breath Central",
-"title": "Wim Hof Guided Breathing Session - 5 Rounds 30 Breaths Extreme Prolonged No Talking"
+"title": "Guided Box Breathing - 10 Minute Meditation (5-5-5-5)"
 },
 {
 "id": "1hQFMC0luis",
 "cat": "breathe",
 "sec": 627,
-"views": 138648,
+"views": 138641,
 "age": "6 years ago",
 "ch": "Feeling Healing",
 "title": "Guided Box Breathing - 10 Minute Meditation (4-4-4-4)"
-},
-{
-"id": "pTFmKj-_OGU",
-"cat": "breathe",
-"sec": 1388,
-"views": 84969,
-"age": "2 years ago",
-"ch": "Hands-On Meditation",
-"title": "2:30 Breath-Hold | Wim Hof Style Calm Breathing Exercise (Less Guidance) | Pranayama Exercise"
 },
 {
 "id": "wlZyYYlpLtw",
@@ -329,7 +311,7 @@
 "id": "MZ36MJd9B9A",
 "cat": "breathe",
 "sec": 1200,
-"views": 54559,
+"views": 54557,
 "age": "3 years ago",
 "ch": "Pocket Breath Coach - Luke Horton",
 "title": "Calming HRV Resonance Breathing Exercise (4.4-6.6)"
@@ -338,7 +320,7 @@
 "id": "PTmWe4LukYs",
 "cat": "breathe",
 "sec": 1328,
-"views": 52214,
+"views": 52215,
 "age": "8 months ago",
 "ch": "Hands-On Meditation",
 "title": "20 Minutes Box Breathing Relaxation Exercise | Beginner Pace | Anxiety Reduction Pranayama Technique"
@@ -356,19 +338,28 @@
 "id": "982In66Kic8",
 "cat": "breathe",
 "sec": 301,
-"views": 44144,
+"views": 44141,
 "age": "2 years ago",
 "ch": "Pocket Breath Coach - Luke Horton",
 "title": "5 Minute HRV Resonance Breathing Exercise (6 breaths per minute)"
 },
 {
-"id": "7ZQs3fjHuF4",
+"id": "r4-MFvdeXKs",
 "cat": "breathe",
-"sec": 1209,
-"views": 38462,
-"age": "6 years ago",
+"sec": 1183,
+"views": 41115,
+"age": "4 years ago",
 "ch": "Feeling Healing",
-"title": "Guided Box Breathing - 20 Minute Meditation (4-4-4-4)"
+"title": "Guided Box Breathing (Slow Counts) | 20 Minutes"
+},
+{
+"id": "L3fcKVrtuj4",
+"cat": "breathe",
+"sec": 1537,
+"views": 19102,
+"age": "3 years ago",
+"ch": "Breath Central",
+"title": "WIM HOF Guided Breathing Meditation - 35 Breaths 4 Rounds Normal Pace | Up to 2min"
 },
 {
 "id": "m4Y0G3jm-sQ",
@@ -380,13 +371,40 @@
 "title": "4-6 Breathing for Stress Relief: 6 Breaths Per Minute"
 },
 {
+"id": "JoDKbXEUrvQ",
+"cat": "breathe",
+"sec": 933,
+"views": 8265413,
+"age": "5 years ago",
+"ch": "Bharti Yoga",
+"title": "15 Mins Pranayama Practice | 5 Deep Breathing Exercises you should do Daily"
+},
+{
 "id": "LU6Oi80n5J4",
 "cat": "breathe",
 "sec": 905,
-"views": 6697467,
+"views": 6697470,
 "age": "8 years ago",
 "ch": "Mike Maher | TAKE A DEEP BREATH",
 "title": "Wim Hof Guided Breathing (3 rounds with onscreen timer)"
+},
+{
+"id": "RiMb2Bw4Ae8",
+"cat": "breathe",
+"sec": 246,
+"views": 4686668,
+"age": "6 years ago",
+"ch": "The Mindfulness Teacher",
+"title": "Belly Breathing: Mindfulness for Children"
+},
+{
+"id": "tEmt1Znux58",
+"cat": "breathe",
+"sec": 168,
+"views": 3976924,
+"age": "6 years ago",
+"ch": "Sunnybrook Hospital",
+"title": "Box breathing relaxation technique: how to calm feelings of stress or anxiety"
 },
 {
 "id": "j-1n3KJR1I8",
@@ -401,7 +419,7 @@
 "id": "F28MGLlpP90",
 "cat": "breathe",
 "sec": 837,
-"views": 2602203,
+"views": 2602167,
 "age": "11 years ago",
 "ch": "City of Hope",
 "title": "15 Minute Deep Breathing Exercise | City of Hope"
@@ -410,19 +428,10 @@
 "id": "FJJazKtH_9I",
 "cat": "breathe",
 "sec": 376,
-"views": 2557145,
+"views": 2557146,
 "age": "7 years ago",
 "ch": "Mike Maher | TAKE A DEEP BREATH",
 "title": "Box Breathing Exercise | TAKE A DEEP BREATH | Pranayama Series"
-},
-{
-"id": "OtHPzU0-t2Y",
-"cat": "breathe",
-"sec": 791,
-"views": 2516380,
-"age": "2 years ago",
-"ch": "Saurabh Bothra",
-"title": "Daily Breathing Exercises in 12 Minutes | Better Health & Wellness | Saurabh Bothra"
 },
 {
 "id": "8TTABLdGCKI",
@@ -437,7 +446,7 @@
 "id": "DbDoBzGY3vo",
 "cat": "breathe",
 "sec": 361,
-"views": 2400383,
+"views": 2400395,
 "age": "5 years ago",
 "ch": "Mike Maher | TAKE A DEEP BREATH",
 "title": "Breathing Exercises with Guided Meditation | 5 Minutes | TAKE A DEEP BREATH"
@@ -446,19 +455,10 @@
 "id": "Gb9YxCC5WBw",
 "cat": "breathe",
 "sec": 747,
-"views": 2283678,
+"views": 2283686,
 "age": "3 years ago",
 "ch": "Breathe With Sandy",
 "title": "10 Minute Morning Breathwork Routine I The Key To Happiness"
-},
-{
-"id": "g4aMapg1_Gk",
-"cat": "breathe",
-"sec": 1041,
-"views": 2093563,
-"age": "7 years ago",
-"ch": "medit-o-rama",
-"title": "EASY 4 rounds Wim Hof Breathing to OVERCOME 2 minutes retention"
 },
 {
 "id": "7Ep5mKuRmAA",
@@ -473,7 +473,7 @@
 "id": "g_jAjpZz-5Y",
 "cat": "breathe",
 "sec": 1183,
-"views": 2082221,
+"views": 2082236,
 "age": "7 years ago",
 "ch": "medit-o-rama",
 "title": "4 rounds advanced Wim Hof guided breathing + OM MANTRA"
@@ -488,13 +488,31 @@
 "title": "10 Minute Guided Breathing Meditation"
 },
 {
+"id": "FI51zRzgIe4",
+"cat": "sweat",
+"sec": 536,
+"views": 14475730,
+"age": "4 years ago",
+"ch": "Tone and Tighten",
+"title": "8 Minute Stretching Routine For People Who AREN’T Flexible!"
+},
+{
 "id": "UheajlsZ72E",
 "cat": "sweat",
 "sec": 780,
-"views": 7624808,
+"views": 7624814,
 "age": "5 years ago",
 "ch": "THENX",
 "title": "10 Min Fat Burning Workout | No Equipment"
+},
+{
+"id": "t2jel6q1GRk",
+"cat": "sweat",
+"sec": 551,
+"views": 6116577,
+"age": "3 years ago",
+"ch": "Tone and Tighten",
+"title": "Quick Morning Stretching Routine For Flexibility, Mobility, And Stiffness!"
 },
 {
 "id": "TZTnkclzkuM",
@@ -506,10 +524,19 @@
 "title": "100 Push Ups A Day | THENX"
 },
 {
+"id": "gnTzk1yUHB4",
+"cat": "sweat",
+"sec": 1102,
+"views": 2723071,
+"age": "4 years ago",
+"ch": "THENX",
+"title": "Complete 15 Min Full Body Workout | No Equipment"
+},
+{
 "id": "WO1a3pWJiz0",
 "cat": "sweat",
 "sec": 641,
-"views": 2170778,
+"views": 2170789,
 "age": "3 years ago",
 "ch": "Tone and Tighten",
 "title": "10-Minute Core Workout For Lower Back Pain Relief [NO MORE BACK PAIN!]"
@@ -527,7 +554,7 @@
 "id": "COO2S7lPBzA",
 "cat": "sweat",
 "sec": 649,
-"views": 1660612,
+"views": 1660618,
 "age": "1 year ago",
 "ch": "Tone and Tighten",
 "title": "10 Minute Total Body Stretch! [Daily Flexibility Routine for Beginners]"
@@ -536,16 +563,25 @@
 "id": "ZiDrFSdI3yg",
 "cat": "sweat",
 "sec": 667,
-"views": 1080493,
+"views": 1080491,
 "age": "13 years ago",
 "ch": "FitnessBlender",
 "title": "100 Burpees Workout Challenge - Fitness Blender's Burpee Madness 2"
 },
 {
+"id": "08RCq776pw0",
+"cat": "sweat",
+"sec": 433,
+"views": 954676,
+"age": "4 years ago",
+"ch": "ATHLEAN-X™",
+"title": "10 MIN FULL BODY HOME WORKOUT (No Equipment!)"
+},
+{
 "id": "IYLxm0T6qls",
 "cat": "sweat",
 "sec": 627,
-"views": 952671,
+"views": 952685,
 "age": "2 years ago",
 "ch": "THENX",
 "title": "SUPER Effective 100 PUSH-UP Chest Workout"
@@ -554,7 +590,7 @@
 "id": "NQxEUC3-aaE",
 "cat": "sweat",
 "sec": 651,
-"views": 947395,
+"views": 947403,
 "age": "2 years ago",
 "ch": "Tone and Tighten",
 "title": "COMPLETE Core Strengthening In Just 10 Minutes! Follow-Along Workout"
@@ -563,37 +599,37 @@
 "id": "ZYuocE5AMgU",
 "cat": "sweat",
 "sec": 647,
-"views": 842316,
+"views": 842321,
 "age": "1 year ago",
 "ch": "THENX",
 "title": "DO 100 PUSH UPS EVERYDAY | LIFE CHANGING RESULTS"
 },
 {
-"id": "_TdWdFQ1Cms",
-"cat": "sweat",
-"sec": 463,
-"views": 723305,
-"age": "2 years ago",
-"ch": "Tone and Tighten",
-"title": "Hit Every Muscle! COMPLETE Core Strength Workout [7 Minutes]"
-},
-{
-"id": "SEm3RtZF9SQ",
-"cat": "sweat",
-"sec": 1517,
-"views": 517048,
-"age": "5 years ago",
-"ch": "Calisthenicmovement",
-"title": "20-Minute \"Full Body\" Home Workout (Beginner to Expert!)"
-},
-{
 "id": "yjBWjaY6JSw",
 "cat": "sweat",
 "sec": 859,
-"views": 286164,
+"views": 286155,
 "age": "1 year ago",
 "ch": "THENX",
 "title": "DO 200 PUSHUPS EVERYDAY | LIFE CHANGING RESULTS"
+},
+{
+"id": "GMKt9cDPVO8",
+"cat": "sweat",
+"sec": 643,
+"views": 131178,
+"age": "2 years ago",
+"ch": "Tone and Tighten",
+"title": "Unlock Your Spine! Complete Stretching Routine [Follow Along]"
+},
+{
+"id": "IFSL_Qk9qKw",
+"cat": "cold",
+"sec": 192,
+"views": 1997601,
+"age": "8 years ago",
+"ch": "Wim Hof",
+"title": "Wim Hof Method | Safety Information"
 },
 {
 "id": "nLHdG_zEue0",
@@ -626,7 +662,7 @@
 "id": "s_Op7f_waHE",
 "cat": "cold",
 "sec": 357,
-"views": 630162,
+"views": 630153,
 "age": "3 years ago",
 "ch": "Wim Hof",
 "title": "What is my morning and evening routine? #AskWim"
@@ -635,7 +671,7 @@
 "id": "7aYArAYghUA",
 "cat": "cold",
 "sec": 407,
-"views": 438332,
+"views": 438330,
 "age": "2 years ago",
 "ch": "Huberman Lab Clips",
 "title": "How Long to Sauna & Cold Plunge for Key Benefits | Dr. Susanna Søberg & Dr. Andrew Huberman"
@@ -668,19 +704,19 @@
 "title": "Benefits of Cold Exposure, Shivering & Brown Fat | Dr. Susanna Søberg & Dr. Andrew Huberman"
 },
 {
-"id": "4rkVXvLNv_g",
+"id": "VF8dkjEdKNo",
 "cat": "cold",
-"sec": 332,
-"views": 35427,
-"age": "4 years ago",
-"ch": "Wim Hof",
-"title": "What do I want to be remembered for? | #AskWim"
+"sec": 360,
+"views": 21536420,
+"age": "7 years ago",
+"ch": "Drew Binsky",
+"title": "Meet Wim Hof | The Ice Man"
 },
 {
 "id": "nOuzSOnfyv0",
 "cat": "cold",
 "sec": 822,
-"views": 17647177,
+"views": 17647178,
 "age": "5 years ago",
 "ch": "Gravity Transformation - Fat Loss Experts",
 "title": "What Happens After 30 Days of Cold Showers"
@@ -695,31 +731,13 @@
 "title": "Transform Your Health with Cold Showers – Dr. Berg's Guide to Cold Showers"
 },
 {
-"id": "j5WCgs2dyaE",
-"cat": "cold",
-"sec": 913,
-"views": 8010618,
-"age": "3 years ago",
-"ch": "Jesse James West",
-"title": "I Survived 24 Hours W/ Wim Hof"
-},
-{
 "id": "RWiOhlqEDz4",
 "cat": "cold",
 "sec": 165,
-"views": 6586390,
+"views": 6586391,
 "age": "12 years ago",
 "ch": "AsapSCIENCE",
 "title": "Does Being Cold Make You Sick?"
-},
-{
-"id": "YaM3xSnQlQ8",
-"cat": "cold",
-"sec": 793,
-"views": 5183348,
-"age": "5 years ago",
-"ch": "Browney",
-"title": "I Took Cold Showers For 10 Days, this is what happened"
 },
 {
 "id": "AroglHhto2o",
@@ -734,7 +752,7 @@
 "id": "lDJaPylV_aM",
 "cat": "cold",
 "sec": 733,
-"views": 2722963,
+"views": 2722967,
 "age": "5 years ago",
 "ch": "Dr Rangan Chatterjee",
 "title": "Do This First Thing In The Morning To Prevent Illness! | Wim Hof"
@@ -743,7 +761,7 @@
 "id": "jMObYA0n6As",
 "cat": "cold",
 "sec": 226,
-"views": 2451656,
+"views": 2451655,
 "age": "9 years ago",
 "ch": "PictureFit",
 "title": "Should You Take COLD SHOWERS For MUSCLE and STRENGTH?"
@@ -758,46 +776,28 @@
 "title": "Joe Rogan Talks Us Through the Benefits of the Cold Plunge"
 },
 {
+"id": "ZDhdbt-l5eI",
+"cat": "cold",
+"sec": 635,
+"views": 2133762,
+"age": "5 years ago",
+"ch": "Awakening With Russell",
+"title": "I Did The Wim Hof Method Everyday For 30 Days And This is What Happened"
+},
+{
 "id": "0G9uEZDm1p0",
 "cat": "cold",
 "sec": 582,
-"views": 2091229,
+"views": 2091232,
 "age": "4 years ago",
 "ch": "Chris Williamson",
 "title": "Ice Bath & Sauna Effects Are Crazier Than You Think - Andrew Huberman"
 },
 {
-"id": "exeNt4zg50c",
-"cat": "cold",
-"sec": 873,
-"views": 1857567,
-"age": "5 years ago",
-"ch": "Browney",
-"title": "I Took Cold Showers For 30 Days Straight | Becoming Superhuman"
-},
-{
-"id": "Gb0h8ZKvJW4",
-"cat": "cold",
-"sec": 648,
-"views": 1708053,
-"age": "13 years ago",
-"ch": "TEDx Talks",
-"title": "Cold Shower Therapy: Joel Runyon at TEDxLUC"
-},
-{
-"id": "LleSOTQ2pEk",
-"cat": "cold",
-"sec": 498,
-"views": 949007,
-"age": "7 years ago",
-"ch": "Barefoot Strength",
-"title": "Ice Baths for Athletes | The Benefits and Side Effects"
-},
-{
 "id": "1uerS5JjjRI",
 "cat": "cold",
 "sec": 466,
-"views": 908572,
+"views": 908601,
 "age": "3 years ago",
 "ch": "WIRED",
 "title": "All the Ways Ice Baths Affect the Body | WIRED"
@@ -806,7 +806,7 @@
 "id": "xTVMGyJ8cZU",
 "cat": "cold",
 "sec": 194,
-"views": 895594,
+"views": 895595,
 "age": "7 years ago",
 "ch": "Dr. Eric Berg DC",
 "title": "The 7 Benefits of a Cold Shower"
@@ -815,7 +815,7 @@
 "id": "q8mha6M_4sw",
 "cat": "cold",
 "sec": 319,
-"views": 849964,
+"views": 849965,
 "age": "5 years ago",
 "ch": "Bloomberg News",
 "title": "Testing Out the Wim Hof Method"
@@ -824,19 +824,28 @@
 "id": "5kkBgb426Aw",
 "cat": "cold",
 "sec": 265,
-"views": 757786,
+"views": 757783,
 "age": "2 years ago",
 "ch": "Plunge",
 "title": "How to Cold Plunge - 10 CRUCIAL TIPS for Beginners"
 },
 {
-"id": "tCF_UYqm2w8",
+"id": "IYni6AfrkAY",
 "cat": "cold",
-"sec": 618,
-"views": 697724,
-"age": "5 years ago",
-"ch": "Motivation Madness",
-"title": "The Secret Truth About THE ICEMAN | Wim Hoff Motivation"
+"sec": 226,
+"views": 738443,
+"age": "4 years ago",
+"ch": "Ryan Humiston",
+"title": "What ICE BATHS Do To Your MUSCLES!"
+},
+{
+"id": "-JAXbDTIiSk",
+"cat": "cold",
+"sec": 208,
+"views": 714613,
+"age": "8 years ago",
+"ch": "Insider Tech",
+"title": "What Hypothermia Does To Your Body And Brain"
 },
 {
 "id": "eXaSVLHQj3E",
@@ -896,55 +905,100 @@
 "id": "mT0RNrTDHkI",
 "cat": "brainoff",
 "sec": 3583,
-"views": 48476955,
+"views": 48476972,
 "age": "11 years ago",
 "ch": "Bob Ross",
 "title": "Bob Ross - One Hour Special - The Grandeur of Summer"
 },
 {
-"id": "R5r8_79x3Z0",
+"id": "EVShbpzeh0E",
 "cat": "brainoff",
-"sec": 723,
-"views": 9886564,
-"age": "7 years ago",
+"sec": 2264,
+"views": 21677854,
+"age": "5 years ago",
 "ch": "my mechanics",
-"title": "Antique Dented Oiler - Perfect Restoration"
+"title": "Broken Rusty Oldtimer Scooter - Restoration"
+},
+{
+"id": "i70wkxmumAw",
+"cat": "brainoff",
+"sec": 274,
+"views": 9966517,
+"age": "9 years ago",
+"ch": "Tom Scott",
+"title": "This giant model stopped a terrible plan"
+},
+{
+"id": "dzYP01CPC6E",
+"cat": "brainoff",
+"sec": 272,
+"views": 8593070,
+"age": "5 years ago",
+"ch": "Tom Scott",
+"title": "I took the world's shortest flight. It was underwhelming."
+},
+{
+"id": "HLj2ASDWAeg",
+"cat": "brainoff",
+"sec": 1515,
+"views": 8488275,
+"age": "4 years ago",
+"ch": "my mechanics",
+"title": "1895 German Book Press \"Alexanderwerk\" - Restoration"
+},
+{
+"id": "IP-rGJKSZ3s",
+"cat": "brainoff",
+"sec": 506,
+"views": 8258867,
+"age": "7 years ago",
+"ch": "Tom Scott",
+"title": "The Two Generals’ Problem"
+},
+{
+"id": "tllAaDaGShg",
+"cat": "brainoff",
+"sec": 1407,
+"views": 8146329,
+"age": "4 years ago",
+"ch": "my mechanics",
+"title": "1930s Desk Lamp - Restoration"
 },
 {
 "id": "dgZ41Rg1whs",
 "cat": "brainoff",
 "sec": 1322,
-"views": 6997145,
+"views": 6997146,
 "age": "7 years ago",
 "ch": "my mechanics",
 "title": "Antique Rusty Hand Plane - Restoration"
 },
 {
-"id": "4KYxkqlzyqM",
+"id": "nltNxh4PaZY",
 "cat": "brainoff",
-"sec": 1655,
-"views": 6103301,
-"age": "10 years ago",
-"ch": "Bob Ross",
-"title": "Bob Ross - Dock Scene (Season 7 Episode 12)"
-},
-{
-"id": "ksCQqViwv2s",
-"cat": "brainoff",
-"sec": 1198,
-"views": 4903616,
+"sec": 1136,
+"views": 6954044,
 "age": "7 years ago",
 "ch": "my mechanics",
-"title": "1918 Aircraft Rivet Hammer - Restoration"
+"title": "Antique Rusty Micrometer - Precise Restoration"
 },
 {
-"id": "tOVB9I4s0Cs",
+"id": "YNC8bJnwwxo",
 "cat": "brainoff",
-"sec": 1276,
-"views": 4768808,
-"age": "6 years ago",
-"ch": "my mechanics",
-"title": "Antique Rusty Hacksaw with Broken Blade - Restoration"
+"sec": 833,
+"views": 6770901,
+"age": "2 years ago",
+"ch": "Hydraulic Press Channel",
+"title": "Best Hydraulic Press Compilation: Satisfying Crushes & Surprising Results | REUPLOAD"
+},
+{
+"id": "gYuH4Ilqdhs",
+"cat": "brainoff",
+"sec": 1645,
+"views": 4921614,
+"age": "10 years ago",
+"ch": "Bob Ross",
+"title": "Bob Ross - Peaceful Reflections (Season 15 Episode 4)"
 },
 {
 "id": "UkQfhwrlfJ4",
@@ -956,94 +1010,67 @@
 "title": "Primitive Technology: Hut with Underfloor Heating (Ondol/Hypocaust)"
 },
 {
-"id": "qTDQt_PdlYc",
-"cat": "brainoff",
-"sec": 1642,
-"views": 4262167,
-"age": "10 years ago",
-"ch": "Bob Ross",
-"title": "Bob Ross - Lonely Retreat (Season 8 Episode 12)"
-},
-{
-"id": "LseK5gp66u8",
-"cat": "brainoff",
-"sec": 259,
-"views": 4136465,
-"age": "5 years ago",
-"ch": "Tom Scott",
-"title": "If these pumps ever stop, part of Germany floods."
-},
-{
-"id": "h0AMaW4XRCI",
-"cat": "brainoff",
-"sec": 398,
-"views": 4126033,
-"age": "8 years ago",
-"ch": "Tom Scott",
-"title": "That Time I Got In Trouble With The Government"
-},
-{
-"id": "WUVZbBBHrI4",
-"cat": "brainoff",
-"sec": 319,
-"views": 3759423,
-"age": "6 years ago",
-"ch": "Tom Scott",
-"title": "This billion-euro nuclear reactor was never switched on"
-},
-{
 "id": "LiKCzeqn-kg",
 "cat": "brainoff",
 "sec": 1587,
-"views": 3754857,
+"views": 3754865,
 "age": "10 years ago",
 "ch": "Bob Ross",
 "title": "Bob Ross - Bubbling Brook (Season 5 Episode 7)"
 },
 {
-"id": "ISU97qNFwq0",
-"cat": "brainoff",
-"sec": 1989,
-"views": 3639971,
-"age": "1 year ago",
-"ch": "Primitive Technology",
-"title": "Primitive Technology: Flywheel blower smelt/Monsoon begins"
-},
-{
 "id": "_-2CJhPX_VI",
 "cat": "brainoff",
 "sec": 2887,
-"views": 3513759,
+"views": 3513782,
 "age": "1 year ago",
 "ch": "Primitive Technology",
 "title": "Primitive Technology: Two Walled Tiled Hut"
 },
 {
+"id": "rApTzWboLrA",
+"cat": "brainoff",
+"sec": 313,
+"views": 3305884,
+"age": "7 years ago",
+"ch": "Tom Scott",
+"title": "The library of rare colors"
+},
+{
 "id": "Sc9H0aCIrmU",
 "cat": "brainoff",
 "sec": 3636,
-"views": 3097941,
+"views": 3098075,
 "age": "2 weeks ago",
 "ch": "my mechanics",
 "title": "Blown Head Gasket - Datsun 240Z Engine Restoration (Part 1)"
 },
 {
-"id": "PXuV_YCt8g4",
+"id": "Byd_Mdajqo0",
 "cat": "brainoff",
-"sec": 859,
-"views": 2989484,
-"age": "4 weeks ago",
+"sec": 637,
+"views": 3004658,
+"age": "2 years ago",
 "ch": "Primitive Technology",
-"title": "Primitive Technology: 3 Iron Consolidation Experiments"
+"title": "Primitive Technology: Crab and Fish Trap"
 },
 {
-"id": "-UyZeZAeXPw",
+"id": "eIBEK-_NMJc",
 "cat": "brainoff",
-"sec": 2261,
-"views": 2603697,
-"age": "4 years ago",
-"ch": "GothamChess",
-"title": "Horrible. (Guess The Elo #40)"
+"sec": 692,
+"views": 2773576,
+"age": "10 months ago",
+"ch": "Primitive Technology",
+"title": "Primitive Technology: Grate furnace, wood fired smelting experiment"
+},
+{
+"id": "qY45EKqgRUc",
+"cat": "brainoff",
+"sec": 3627,
+"views": 2400139,
+"age": "1 year ago",
+"ch": "Science Channel",
+"title": "Things You've (Maybe) Never Heard Of | How It's Made | Science Channel"
 },
 {
 "id": "j8Jf7QVKLgQ",
@@ -1055,28 +1082,10 @@
 "title": "Bob Ross - Country Life (Season 6 Episode 10)"
 },
 {
-"id": "XTzMqWaoqYw",
-"cat": "brainoff",
-"sec": 920,
-"views": 2219951,
-"age": "3 years ago",
-"ch": "Primitive Technology",
-"title": "Primitive Technology: Wood Ash Insulated Furnace"
-},
-{
-"id": "zpR5TN3r0d0",
-"cat": "brainoff",
-"sec": 2368,
-"views": 2216672,
-"age": "1 year ago",
-"ch": "my mechanics",
-"title": "1917 Swiss Bead Roller Restoration - Making New Ones for a Masterpiece"
-},
-{
 "id": "TumxO2glmPQ",
 "cat": "brainoff",
 "sec": 1870,
-"views": 2150677,
+"views": 2150707,
 "age": "2 weeks ago",
 "ch": "Tom Scott",
 "title": "Why robots still can't pick strawberries"
@@ -1085,7 +1094,7 @@
 "id": "1799Rqn71A8",
 "cat": "brainoff",
 "sec": 1668,
-"views": 2122103,
+"views": 2122126,
 "age": "1 year ago",
 "ch": "Primitive Technology",
 "title": "Primitive Technology: Belt and pulley blower"
@@ -1094,37 +1103,64 @@
 "id": "E3IAMvO8GyM",
 "cat": "brainoff",
 "sec": 1628,
-"views": 1944464,
+"views": 1944490,
 "age": "10 years ago",
 "ch": "Bob Ross",
 "title": "Bob Ross - Mountain Cabin (Season 7 Episode 4)"
 },
 {
-"id": "IJSO-BL3pEU",
+"id": "spFwCh2616s",
 "cat": "brainoff",
-"sec": 1360,
-"views": 1906949,
-"age": "2 months ago",
-"ch": "Tom Scott",
-"title": "This Mars rover's cool. But have you seen its wheels?"
+"sec": 1607,
+"views": 1932207,
+"age": "10 years ago",
+"ch": "Bob Ross",
+"title": "Bob Ross - Arizona Splendor (Season 5 Episode 8)"
 },
 {
-"id": "OkUjUoEVaOI",
+"id": "lM_QxT7J5n8",
 "cat": "brainoff",
-"sec": 1891,
-"views": 1709593,
-"age": "4 years ago",
-"ch": "GothamChess",
-"title": "No More. (Guess The Elo #54)"
+"sec": 3943,
+"views": 1751669,
+"age": "7 months ago",
+"ch": "Science Channel",
+"title": "Breakfast Time! How All Your Favorites Are Made! | How It's Made | Science Channel"
 },
 {
 "id": "N-1xEWHgt38",
 "cat": "brainoff",
 "sec": 2087,
-"views": 1567016,
+"views": 1567085,
 "age": "1 month ago",
 "ch": "GothamChess",
 "title": "LEGENDARY Guess The Elo"
+},
+{
+"id": "zpx4FI8WMOc",
+"cat": "brainoff",
+"sec": 3604,
+"views": 1356932,
+"age": "1 year ago",
+"ch": "Science Channel",
+"title": "Products Exploding With Color! | How It's Made | Science Channel"
+},
+{
+"id": "4y_c2aCQ9hY",
+"cat": "brainoff",
+"sec": 1486,
+"views": 1309437,
+"age": "3 years ago",
+"ch": "GothamChess",
+"title": "Absolutely AWFUL Guess The Elo"
+},
+{
+"id": "ebgrsldLIvI",
+"cat": "brainoff",
+"sec": 660,
+"views": 1250950,
+"age": "1 year ago",
+"ch": "Primitive Technology",
+"title": "Primitive Technology: Grass mat loom"
 },
 {
 "id": "5Xtt1drpbvM",
@@ -1136,19 +1172,10 @@
 "title": "MOST INSANE Guess The Elo EVER"
 },
 {
-"id": "EYiil5yOHjQ",
-"cat": "brainoff",
-"sec": 2208,
-"views": 1168508,
-"age": "5 years ago",
-"ch": "GothamChess",
-"title": "No More Hoodies (Guess The Elo #20)"
-},
-{
 "id": "1G2RDVC-EIQ",
 "cat": "brainoff",
 "sec": 2634,
-"views": 1128383,
+"views": 1128402,
 "age": "2 months ago",
 "ch": "GothamChess",
 "title": "I AM DONE WITH GUESS THE ELO"
@@ -1163,94 +1190,76 @@
 "title": "Clocks are so much more interesting than I thought."
 },
 {
-"id": "DGxDVLx3Szs",
+"id": "CSpI9FnmIgM",
 "cat": "brainoff",
-"sec": 3875,
-"views": 1061998,
-"age": "4 years ago",
-"ch": "Hydraulic Press Channel",
-"title": "1 HOUR Hydraulic Press Compilation | Best of hpc_official Tiktok"
+"sec": 2445,
+"views": 1072645,
+"age": "1 year ago",
+"ch": "GothamChess",
+"title": "GUESS THE ELOOOOO IS BACK!!!!!!!!!"
 },
 {
 "id": "x66xynjmk9o",
 "cat": "brainoff",
 "sec": 2048,
-"views": 953757,
+"views": 953765,
 "age": "2 years ago",
 "ch": "Hand Tool Rescue",
 "title": "Gizmortiser [Restoration]"
 },
 {
-"id": "IwmieKsHhy0",
+"id": "cmJNR3VNjQM",
 "cat": "brainoff",
-"sec": 2933,
-"views": 910853,
-"age": "3 years ago",
-"ch": "Hand Tool Rescue",
-"title": "Round Knife Cutter [Restoration]"
+"sec": 2597,
+"views": 921531,
+"age": "4 months ago",
+"ch": "GothamChess",
+"title": "BANNED GUESS THE ELO"
 },
 {
-"id": "CXBJ6k0dO1k",
+"id": "-yqehvAQH1A",
 "cat": "brainoff",
-"sec": 671,
-"views": 894788,
+"sec": 4512,
+"views": 917811,
+"age": "1 year ago",
+"ch": "Science Channel",
+"title": "All Types of Tools and Hardware | How It's Made | Science Channel"
+},
+{
+"id": "fFy7iOzxlG4",
+"cat": "brainoff",
+"sec": 977,
+"views": 794146,
 "age": "1 year ago",
 "ch": "Hydraulic Press Channel",
-"title": "How Strong Are Trees? 300 Ton Hydraulic Press Test!"
+"title": "10 Years of Explosions 💥 The Most Terrifying Hydraulic Press Moments Ever"
 },
 {
-"id": "EdWgj-9_5lA",
+"id": "Vk01aWJaoHg",
 "cat": "brainoff",
-"sec": 3589,
-"views": 886599,
-"age": "1 month ago",
+"sec": 561,
+"views": 781778,
+"age": "5 months ago",
+"ch": "Hydraulic Press Channel",
+"title": "10 Hydraulic Press Tests We Didn’t See Coming"
+},
+{
+"id": "yhx77tFyDg0",
+"cat": "brainoff",
+"sec": 3787,
+"views": 770893,
+"age": "10 months ago",
 "ch": "Science Channel",
-"title": "Art Supplies 🎨 How It's Made | Science Channel"
+"title": "How the Building Blocks of a Home are Made | How It's Made | Science Channel"
 },
 {
-"id": "lfOeqLCvQp8",
+"id": "fJY0P5aL5dg",
 "cat": "brainoff",
-"sec": 1773,
-"views": 646960,
-"age": "1 year ago",
-"ch": "Hand Tool Rescue",
-"title": "Meat Saw [Restoration]"
-},
-{
-"id": "NVgXvGDgq4Y",
-"cat": "brainoff",
-"sec": 2071,
-"views": 589666,
+"sec": 2069,
+"views": 743915,
 "age": "2 years ago",
 "ch": "Hand Tool Rescue",
-"title": "Mesmerizing 1930s Artillery Sprinkler [Restoration]"
-},
-{
-"id": "ZJ4C7cUG0eQ",
-"cat": "brainoff",
-"sec": 762,
-"views": 421175,
-"age": "1 year ago",
-"ch": "Hydraulic Press Channel",
-"title": "How Strong Is a GIANT Steel I-Beam? 300 Ton Hydraulic Press Test!"
-},
-{
-"id": "oqkjlV2IDYc",
-"cat": "brainoff",
-"sec": 1783,
-"views": 372902,
-"age": "2 weeks ago",
-"ch": "Hand Tool Rescue",
-"title": "Antique Counting Machine [Restoration]"
-},
-{
-"id": "I4cT5Y8J3W4",
-"cat": "brainoff",
-"sec": 734,
-"views": 335057,
-"age": "5 years ago",
-"ch": "Pasta Grannies",
-"title": "Watch Luisa roll a giant pasta sheet & then make ravioli! | Pasta Grannies"
+"title": "Bird Cannon [Restoration]"
 },
 {
 "id": "PyFN_FYwqvc",
@@ -1260,6 +1269,15 @@
 "age": "6 years ago",
 "ch": "4K Relaxation Channel",
 "title": "4K Virtual Hike through Canadian Forest (with Nature Sounds) - Incredible Nature of British Columbia"
+},
+{
+"id": "kUDxhIyaCEA",
+"cat": "grass",
+"sec": 2420,
+"views": 3111771,
+"age": "3 years ago",
+"ch": "AKSense - Zurich",
+"title": "4K Train Driver view - Montreux to Montbovon - Goldenpass Panoramic MOB Train Switzerland | Cab ride"
 },
 {
 "id": "RDiK058GjgI",
@@ -1280,19 +1298,10 @@
 "title": "4K Virtual Hike Near River through the Forest - Baker River Trail & Chain Lake Trail"
 },
 {
-"id": "h0vrvXBLoCU",
-"cat": "grass",
-"sec": 1859,
-"views": 1646619,
-"age": "2 years ago",
-"ch": "AKSense - Zurich",
-"title": "Winter Special Grindelwald to Interlaken, Switzerland | Cab Ride - Train Driver View | 4K 60 fps"
-},
-{
 "id": "tgEo0EqQpIc",
 "cat": "grass",
 "sec": 10945,
-"views": 689183,
+"views": 689200,
 "age": "8 months ago",
 "ch": "Walks Of Wonder",
 "title": "Meditative Rain Walk in a Lush North Vancouver Forest"
@@ -1307,15 +1316,6 @@
 "title": "2 HRS Virtual Walk around Emerald Lake, Yoho National Park - 4K Nature Walking Tour + Birds Chirping"
 },
 {
-"id": "NGBAJw1jeXA",
-"cat": "grass",
-"sec": 4983,
-"views": 557785,
-"age": "1 year ago",
-"ch": "Ambient Exploration",
-"title": "Shirakawa-go Morning Fog, Quiet Walk in Mountain Village | Gifu, Japan 4K Dawn"
-},
-{
 "id": "3hm3YKMxXSs",
 "cat": "grass",
 "sec": 13622,
@@ -1323,6 +1323,24 @@
 "age": "11 months ago",
 "ch": "Walks Of Wonder",
 "title": "Soothing Rain Walk in a Lush Forest: Misty Forest Ambience for Sleep & Meditation, North Vancouver"
+},
+{
+"id": "k0lDta9FfoQ",
+"cat": "grass",
+"sec": 6006,
+"views": 320595,
+"age": "1 year ago",
+"ch": "Walks Of Wonder",
+"title": "Meditative Rain Walk in a Lush Forest, Burnaby Mountain BC Canada"
+},
+{
+"id": "unAOJiEviCo",
+"cat": "grass",
+"sec": 8904,
+"views": 319350,
+"age": "2 years ago",
+"ch": "Rail Relaxation",
+"title": "Cab Ride Wien (Vienna) - Salzburg (part of ÖBB-Westbahn, Austria) train driver's view in 4K"
 },
 {
 "id": "AkG7Ogwh_Vs",
@@ -1334,139 +1352,148 @@
 "title": "Muir Woods Early Morning, Quiet Walk in Redwood Forest | Mill Valley, California"
 },
 {
-"id": "jS_6qFltTN8",
+"id": "tKRQu0Afx4M",
 "cat": "grass",
-"sec": 5783,
-"views": 225066,
-"age": "2 years ago",
-"ch": "Walks Of Wonder",
-"title": "Relaxing Rainy Virtual Hike through Lower Lynn Canyon, North Vancouver BC Canada"
+"sec": 1164,
+"views": 256295,
+"age": "1 year ago",
+"ch": "AKSense - Zurich",
+"title": "4K Cab Ride - Interlaken to Lauterbrunnen Switzerland - Train Driver View Spring season - 4k 60p hdr"
+},
+{
+"id": "0Ej3COY-FYA",
+"cat": "grass",
+"sec": 8033,
+"views": 235499,
+"age": "1 year ago",
+"ch": "Rail Relaxation",
+"title": "Cab Ride Munich - Innsbruck - Brenner (Germany - Austria - Italy, July 2025) train driver's view 4K"
 },
 {
 "id": "W5OVy4jppeU",
 "cat": "grass",
 "sec": 13172,
-"views": 221026,
+"views": 221019,
 "age": "3 years ago",
 "ch": "ExciteHike",
 "title": "Hiking Eagle Creek, From First to Last Waterfall - No Talk, No Music, Just Nature. - 4K Virtual Hike"
 },
 {
-"id": "Z0QdYUBzCLI",
+"id": "cFxxVQXEyUo",
 "cat": "grass",
-"sec": 8329,
-"views": 150981,
+"sec": 8845,
+"views": 144245,
 "age": "1 year ago",
-"ch": "Rail Relaxation",
-"title": "Cab Ride Bregenz - Innsbruck (Austrian Federal Railways ÖBB, Austria) train driver's view 4K"
+"ch": "Walks Of Wonder",
+"title": "A Meditative Walk Through the Clouds | Mount Seymour Rainy Forest Walk"
+},
+{
+"id": "KCOdLimXXuM",
+"cat": "grass",
+"sec": 8715,
+"views": 141649,
+"age": "1 year ago",
+"ch": "Walks Of Wonder",
+"title": "Peaceful Rainy Walk in a Lush Forest, North Vancouver BC Canada"
 },
 {
 "id": "BaingE6BZ10",
 "cat": "grass",
 "sec": 11834,
-"views": 136795,
+"views": 136789,
 "age": "3 years ago",
 "ch": "ExciteHike",
 "title": "A Rainforest Walk to Black Hole Falls - No Talk, No Music, Just Nature. - 4K Virtual Hike"
 },
 {
-"id": "JJW4Kk3cBzk",
+"id": "sX7djuP3mbg",
 "cat": "grass",
-"sec": 12304,
-"views": 96680,
-"age": "2 months ago",
-"ch": "Walks Of Wonder",
-"title": "A Peaceful Summer Rain Walk on Burnaby Mountain 🌧️ 3.5 Hours of Calm"
+"sec": 5889,
+"views": 126936,
+"age": "5 years ago",
+"ch": "4K Relaxation Channel",
+"title": "Incredible Wildflowers of Mount Rainier - 4K Virtual Hike - Reflection Lakes Trail on a Sunny Day"
+},
+{
+"id": "yDCikUknQZ8",
+"cat": "grass",
+"sec": 4014,
+"views": 103272,
+"age": "1 year ago",
+"ch": "Ambient Exploration",
+"title": "Rain Walk in Mount Daisen Forest | Tottori, Japan 4K Nature"
 },
 {
 "id": "6lYRs-W86gI",
 "cat": "grass",
 "sec": 6434,
-"views": 92366,
+"views": 92357,
 "age": "4 months ago",
 "ch": "Ambient Exploration",
 "title": "Rain Hike in Kodama Moss Forest | Yakushima, Japan"
 },
 {
-"id": "yXx0oSdRJjk",
-"cat": "grass",
-"sec": 1534,
-"views": 80496,
-"age": "2 months ago",
-"ch": "AKSense - Zurich",
-"title": "Train Driver view – Montbovon to Bulle via Gruyères Switzerland | Cab ride 4K 60p HDR"
-},
-{
 "id": "sZkPQbtkfvs",
 "cat": "grass",
 "sec": 2620,
-"views": 72616,
+"views": 72620,
 "age": "7 months ago",
 "ch": "AKSense - Zurich",
 "title": "Full Cab Ride : Lucerne – Engelberg Express Switzerland 4K"
 },
 {
+"id": "T7RIet7T2rc",
+"cat": "grass",
+"sec": 13627,
+"views": 70955,
+"age": "5 months ago",
+"ch": "Rail Relaxation",
+"title": "Cab Ride Gotthard Express Locarno → Basel (SOB, Switzerland, November 2025) train driver's view 4K"
+},
+{
 "id": "1X3qKOdSe30",
 "cat": "grass",
 "sec": 2491,
-"views": 65007,
+"views": 65009,
 "age": "1 month ago",
 "ch": "AKSense - Zurich",
 "title": "Train Driver view – Montreux to Rochers de Naye Switzerland | Cab ride | 4K 60p HDR"
 },
 {
-"id": "xJEC5K2U_wU",
+"id": "UlRQ4QJlylU",
 "cat": "grass",
-"sec": 11950,
-"views": 61811,
-"age": "3 weeks ago",
+"sec": 2123,
+"views": 58345,
+"age": "11 months ago",
+"ch": "AKSense - Zurich",
+"title": "Fall Special: Train Cab ride - Arosa to Lüen-Castiel Switzerland | Rhaetian Railway | 4K 60fps UHD"
+},
+{
+"id": "Y63c7m4wkeU",
+"cat": "grass",
+"sec": 10896,
+"views": 52954,
+"age": "1 year ago",
 "ch": "Rail Relaxation",
-"title": "Cab Ride Lyon Part-Dieu → Marseille Saint-Charles (France, August 2026) Train Driver's View 4K"
+"title": "Cab Ride Charaña - Calacoto (Arica–La Paz Railway, Bolivia) train driver's view 4K"
 },
 {
 "id": "QGOrWlx0HX0",
 "cat": "grass",
 "sec": 10777,
-"views": 36794,
+"views": 36795,
 "age": "3 years ago",
 "ch": "ExciteHike",
 "title": "A Forest Walk Up Hamilton Mountain - No Talk, No Music, Just Nature. - 4K Virtual Hike"
 },
 {
-"id": "b3wKdttONsc",
-"cat": "grass",
-"sec": 4158,
-"views": 35073,
-"age": "2 months ago",
-"ch": "Rail Relaxation",
-"title": "Cab Ride De Panne → Gent-Sint-Pieters (Belgium's Scenic Line 73, June 2026) Train Driver's View 4K"
-},
-{
-"id": "QGviQOiZ2MI",
-"cat": "grass",
-"sec": 4518,
-"views": 33612,
-"age": "2 weeks ago",
-"ch": "Rail Relaxation",
-"title": "Cab Ride Langeac → Clermont-Ferrand (France, August 2026) Train Driver's View 4K"
-},
-{
 "id": "S-spmZjXxX4",
 "cat": "grass",
 "sec": 6865,
-"views": 27439,
+"views": 27438,
 "age": "4 years ago",
 "ch": "ExciteHike",
 "title": "Oregon Rainforest Walk - No Talk, No Music, Just Nature. | 4K Virtual Hike"
-},
-{
-"id": "VHosqHxrCmE",
-"cat": "grass",
-"sec": 2518,
-"views": 27344,
-"age": "3 months ago",
-"ch": "AKSense - Zurich",
-"title": "Train Driver View - Brunnen to Luzern via Arth Goldau Switzerland | Cab ride 4K 60fps HDR"
 },
 {
 "id": "5s-8ouyPOlg",
@@ -1478,19 +1505,10 @@
 "title": "Cab Ride Avignon-Centre → Narbonne (France, August 2026) Train Driver's View 4K"
 },
 {
-"id": "NnFmRaAKKCI",
-"cat": "grass",
-"sec": 1904,
-"views": 4933,
-"age": "7 hours ago",
-"ch": "AKSense - Zurich",
-"title": "🍂 Train driver view – Monte Generoso Railway Switzerland | Capolago to Monte Generoso | 4K 60p HDR"
-},
-{
 "id": "pPVRykXjwBM",
 "cat": "grass",
 "sec": 5156,
-"views": 566,
+"views": 591,
 "age": "1 hour ago",
 "ch": "Rail Relaxation",
 "title": "Cab Ride Nîmes → Villefort (France, August 2026) Train Driver's View 4K"
@@ -1505,28 +1523,19 @@
 "title": "California Trains! 1 Hour, 150+ Trains!"
 },
 {
-"id": "BFo8xW1JlBE",
+"id": "RzVvThhjAKw",
 "cat": "grass",
-"sec": 1062,
-"views": 23751315,
-"age": "2 years ago",
-"ch": "WOLFPACK ADVENTURES",
-"title": "Most INSANE POV Lines I Rode This Year!"
-},
-{
-"id": "cvFt2Xcuois",
-"cat": "grass",
-"sec": 2777,
-"views": 19349777,
-"age": "6 years ago",
-"ch": "Eddie Bauer",
-"title": "Breathtaking: K2 - The World's Most Dangerous Mountain | Eddie Bauer"
+"sec": 10852,
+"views": 22726955,
+"age": "4 years ago",
+"ch": "Relaxation Film and Eterna Vista",
+"title": "Forest 4K • Nature Relaxation Film • Peaceful Relaxing Music • 4k Video UltraHD"
 },
 {
 "id": "XsVJ8PCV-0M",
 "cat": "grass",
 "sec": 7222,
-"views": 15224680,
+"views": 15224654,
 "age": "6 years ago",
 "ch": "lorirocks777",
 "title": "★ 4K Cab ride 🇨🇭St. Moritz - 🇮🇹Tirano, fresh snow, strong winds & snowdrifts [03.2020]"
@@ -1535,7 +1544,7 @@
 "id": "LVanPoKh7Ew",
 "cat": "grass",
 "sec": 6055,
-"views": 7625694,
+"views": 7625700,
 "age": "7 years ago",
 "ch": "Relaxing Sounds Of Nature",
 "title": "Virtual Drive Through The Dark and Foggy Forest / Rain and Thunder"
@@ -1544,7 +1553,7 @@
 "id": "nKOe2PuERD0",
 "cat": "grass",
 "sec": 6644,
-"views": 6637268,
+"views": 6637276,
 "age": "5 years ago",
 "ch": "lorirocks777",
 "title": "★ 4K 🇮🇹Tirano - 🇨🇭St. Moritz summer cab ride, Italy to Switzerland [06.2020]"
@@ -1568,31 +1577,40 @@
 "title": "Best Rain in the Forest at Night 🌲 | Sleep Deeply with Rain Sounds"
 },
 {
-"id": "IsPBplWLImI",
+"id": "VNu15Qqomt8",
 "cat": "grass",
-"sec": 11049,
-"views": 5243983,
-"age": "8 years ago",
-"ch": "TheSilentWatcher",
-"title": "4K HDR Bluebell Woods - English Forest - Birds Singing - No Loop - Relaxing Nature Video & Sounds"
+"sec": 10895,
+"views": 4597886,
+"age": "4 years ago",
+"ch": "Relaxation Film",
+"title": "FOREST 4K 🌲 American Nature Relaxation Film - Peaceful Relaxing Music - 4k Video UltraHD"
 },
 {
-"id": "OIq5EsDudQs",
+"id": "0oZrLuTO8hs",
 "cat": "grass",
-"sec": 1310,
-"views": 4451704,
-"age": "10 months ago",
-"ch": "WOLFPACK ADVENTURES",
-"title": "Most INSANE POV Lines I Rode This Year!"
-},
-{
-"id": "RvZFYE5jo1M",
-"cat": "grass",
-"sec": 3998,
-"views": 3831241,
+"sec": 13477,
+"views": 4372266,
 "age": "6 years ago",
-"ch": "TRAVOH",
-"title": "Tropical Island Walk | Ocean Beach Nature | Motu Tane | Bora Bora, French Polynesia 🇵🇫 | 4K Travel"
+"ch": "Kraig Adams",
+"title": "4 Hours of Ambient Hiking Footage"
+},
+{
+"id": "YZ9kdU76s3w",
+"cat": "grass",
+"sec": 1547,
+"views": 4354057,
+"age": "1 year ago",
+"ch": "Tourist Walk Tours",
+"title": "Switzerland’s Most Beautiful Train Ride – Grindelwald to Lauterbrunnen"
+},
+{
+"id": "H9-OOl_9r6I",
+"cat": "grass",
+"sec": 2816,
+"views": 3501305,
+"age": "3 years ago",
+"ch": "Harmen Hoek",
+"title": "16 Days Alone in the Himalayas – Silent Hiking Nepal"
 },
 {
 "id": "PyQQJWmV1LE",
@@ -1604,19 +1622,28 @@
 "title": "3 Hours of Ambient Hiking Footage"
 },
 {
-"id": "nY46GnlWKqU",
-"cat": "grass",
-"sec": 2858,
-"views": 3262637,
-"age": "4 years ago",
-"ch": "Jon Gupta",
-"title": "K2 SUMMIT VIDEO! (FULL)"
+"id": "arj7oStGLkU",
+"cat": "talks",
+"sec": 844,
+"views": 62149208,
+"age": "10 years ago",
+"ch": "TED",
+"title": "Inside the Mind of a Master Procrastinator | Tim Urban | TED"
+},
+{
+"id": "Lp7E973zozc",
+"cat": "talks",
+"sec": 1300,
+"views": 34713745,
+"age": "15 years ago",
+"ch": "TEDx Talks",
+"title": "How to stop screwing yourself over | Mel Robbins | TEDxSF"
 },
 {
 "id": "xyQY8a-ng6g",
 "cat": "talks",
 "sec": 293,
-"views": 21852565,
+"views": 21852572,
 "age": "10 years ago",
 "ch": "TED-Ed",
 "title": "How the food you eat affects your brain - Mia Nacamulli"
@@ -1640,13 +1667,13 @@
 "title": "How sugar affects the brain - Nicole Avena"
 },
 {
-"id": "5MuIMqhT8DM",
+"id": "xp0O2vi8DX4",
 "cat": "talks",
-"sec": 1159,
-"views": 17616034,
-"age": "7 years ago",
-"ch": "TED",
-"title": "Sleep Is Your Superpower | Matt Walker | TED"
+"sec": 1009,
+"views": 17564885,
+"age": "12 years ago",
+"ch": "TEDx Talks",
+"title": "How to motivate yourself to change your behavior | Tali Sharot | TEDxCambridge"
 },
 {
 "id": "TQMbvJNRpLE",
@@ -1661,34 +1688,16 @@
 "id": "PY9DcIMGxMs",
 "cat": "talks",
 "sec": 883,
-"views": 13630872,
+"views": 13630884,
 "age": "11 years ago",
 "ch": "TED",
 "title": "Everything you think you know about addiction is wrong | Johann Hari | TED"
 },
 {
-"id": "BHY0FxzoKZE",
-"cat": "talks",
-"sec": 783,
-"views": 12509059,
-"age": "8 years ago",
-"ch": "TED",
-"title": "The Brain-Changing Benefits of Exercise | Wendy Suzuki | TED"
-},
-{
-"id": "fxbCHn6gE3U",
-"cat": "talks",
-"sec": 925,
-"views": 11967564,
-"age": "10 years ago",
-"ch": "TED",
-"title": "The surprising habits of original thinkers | Adam Grant | TED"
-},
-{
 "id": "FWTNMzK9vG4",
 "cat": "talks",
 "sec": 346,
-"views": 11020085,
+"views": 11020098,
 "age": "4 years ago",
 "ch": "TED-Ed",
 "title": "Why you procrastinate even when it feels bad"
@@ -1697,7 +1706,7 @@
 "id": "tTb3d5cjSFI",
 "cat": "talks",
 "sec": 914,
-"views": 9926418,
+"views": 9926419,
 "age": "11 years ago",
 "ch": "TEDx Talks",
 "title": "The secret to self control | Jonathan Bricker | TEDxRainier"
@@ -1706,7 +1715,7 @@
 "id": "WuyPuH9ojCE",
 "cat": "talks",
 "sec": 256,
-"views": 8995304,
+"views": 8995308,
 "age": "10 years ago",
 "ch": "TED-Ed",
 "title": "How stress affects your brain - Madhumita Murgia"
@@ -1724,34 +1733,34 @@
 "id": "idrbwnWLJ7w",
 "cat": "talks",
 "sec": 337,
-"views": 7254162,
+"views": 7254172,
 "age": "1 year ago",
 "ch": "TED-Ed",
 "title": "What staying up all night does to your brain - Anna Rothschild"
 },
 {
-"id": "gUV5DJb6KGs",
+"id": "QijH4UAqGD8",
 "cat": "talks",
-"sec": 872,
-"views": 3700855,
-"age": "3 years ago",
-"ch": "TEDx Talks",
-"title": "How to talk to the worst parts of yourself | Karen Faith | TEDxKC"
+"sec": 655,
+"views": 5321477,
+"age": "8 years ago",
+"ch": "TED",
+"title": "Get comfortable with being uncomfortable | Luvvie Ajayi Jones | TED"
 },
 {
-"id": "1nP5oedmzkM",
+"id": "AdKUJxjn-R8",
 "cat": "talks",
-"sec": 1175,
-"views": 2267034,
-"age": "9 years ago",
+"sec": 1044,
+"views": 2355950,
+"age": "13 years ago",
 "ch": "TEDx Talks",
-"title": "Self-Transformation Through Mindfulness | Dr. David Vago | TEDxNashville"
+"title": "Forget big change, start with a tiny habit: BJ Fogg at TEDxFremont"
 },
 {
 "id": "XXYNvwrVKdE",
 "cat": "talks",
 "sec": 595,
-"views": 1453193,
+"views": 1453202,
 "age": "1 year ago",
 "ch": "Huberman Lab Clips",
 "title": "How to Quit Video Game, Pornography & Social Media Addiction | Dr. Andrew Huberman"
@@ -1769,25 +1778,16 @@
 "id": "5eJEzg0Tfc4",
 "cat": "talks",
 "sec": 1132,
-"views": 469825,
+"views": 469815,
 "age": "8 years ago",
 "ch": "TEDx Talks",
 "title": "Be Recovered: Breaking free from the Disease of Addiction | Dean Taraborelli | TEDxSedona"
 },
 {
-"id": "ctyqx6trUmo",
-"cat": "talks",
-"sec": 807,
-"views": 424648,
-"age": "2 years ago",
-"ch": "TEDx Talks",
-"title": "Why You Procrastinate - and How to Stop it for Good | Elyssa Smith | TEDxBabsonCollege"
-},
-{
 "id": "lS3ddSQLLYs",
 "cat": "talks",
 "sec": 437,
-"views": 267489,
+"views": 267484,
 "age": "2 years ago",
 "ch": "Huberman Lab Clips",
 "title": "Addiction Explained, Rises & Falls in Dopamine | Dr. Andrew Huberman"
@@ -1802,6 +1802,15 @@
 "title": "Christine Carter: The 1-minute secret to forming a new habit | TED"
 },
 {
+"id": "iu9u5yzUlb0",
+"cat": "talks",
+"sec": 724,
+"views": 193158,
+"age": "7 years ago",
+"ch": "TED",
+"title": "How to break bad management habits before they reach the next generation of leaders | Elizabeth Lyle"
+},
+{
 "id": "2po3w5oFygY",
 "cat": "talks",
 "sec": 417,
@@ -1814,7 +1823,7 @@
 "id": "gMF142JSNYs",
 "cat": "talks",
 "sec": 455,
-"views": 91446,
+"views": 91447,
 "age": "1 year ago",
 "ch": "Huberman Lab Clips",
 "title": "How to Invest Dopamine for Motivation & Drive | Michael Easter & Dr. Andrew Huberman"

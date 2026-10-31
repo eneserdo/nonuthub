@@ -42,6 +42,9 @@ with sync_playwright() as p:
     pg.goto(URL + "#/watch/1s58rW0_LN4"); pg.wait_for_selector(".player img"); pg.wait_for_timeout(800)
     pg.screenshot(path=str(OUT / "watch.png"))
     pg.click(".bigplay"); pg.wait_for_selector(".player iframe")
+    pg.goto(URL + "#/videos"); pg.wait_for_selector(".grid .card"); pg.wait_for_timeout(500)
+    n0 = pg.locator(".grid .card").count(); pg.evaluate("window.scrollTo(0, document.body.scrollHeight)"); pg.wait_for_timeout(800)
+    n1 = pg.locator(".grid .card").count(); assert n1 > n0, f"infinite scroll did not load more ({n0} -> {n1})"
     pg.goto(URL + "#/videos?c=brainoff"); pg.wait_for_selector(".catwhy"); pg.wait_for_timeout(800)
     pg.screenshot(path=str(OUT / "category.png"))
     pg.goto(URL + "#/search?q=hot+singles+near+me"); pg.wait_for_selector(".noresults")

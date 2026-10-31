@@ -2,11 +2,11 @@
   <img src="docs/readme/banner.png" alt="NoNutHub: the tab you open instead" width="100%">
 </p>
 
-<h3 align="center">The tab you open instead. 36 real videos that help against an urge, sorted by what the research says works.</h3>
+<h3 align="center">The tab you open instead. 240 real videos that help against an urge, sorted by what the research says works, with new ones every day.</h3>
 
 <p align="center">
   <a href="https://eneserdo.github.io/nonuthub/"><img alt="Live site" src="https://img.shields.io/badge/live-eneserdo.github.io%2Fnonuthub-ff9000?style=flat-square"></a>
-  <img alt="Videos" src="https://img.shields.io/badge/videos-36-ff9000?style=flat-square&labelColor=1b1b1b">
+  <img alt="Videos" src="https://img.shields.io/badge/videos-240%2B%20daily-ff9000?style=flat-square&labelColor=1b1b1b">
   <img alt="Studies" src="https://img.shields.io/badge/studies-13%20with%20DOI-ff9000?style=flat-square&labelColor=1b1b1b">
   <img alt="Adult content" src="https://img.shields.io/badge/adult%20content-none-1b1b1b?style=flat-square">
   <img alt="Tracking" src="https://img.shields.io/badge/tracking-none-1b1b1b?style=flat-square">
@@ -15,6 +15,7 @@
 
 <p align="center">
   <a href="https://eneserdo.github.io/nonuthub/"><b>Open NoNutHub</b></a> ·
+  <a href="https://github.com/eneserdo/nonuthub/actions/workflows/videos.yml">daily video update</a> ·
   <a href="https://eneserdo.github.io/nonuthub/#/watch/pXWQXDxXg5U">start with a 3 minute urge surf</a> ·
   <a href="https://eneserdo.github.io/nonuthub/#/research">read the research</a>
 </p>
@@ -56,7 +57,13 @@ motivational videos. NoNutHub puts the swap where the habit already goes, and so
 
 ## The videos
 
-36 public YouTube videos from the channels that made them, in seven categories. Each category page says which study it rests on.
+36 hand-picked videos (below) plus a daily list of about 200 more that [`tools/fetch_videos.py`](tools/fetch_videos.py) finds
+every morning with a [GitHub Actions job](.github/workflows/videos.yml). The fetcher searches YouTube in restricted
+mode with fixed queries per category, keeps videos from trusted channels (or, in open categories, popular videos with a
+clean title), checks that the owner allows embedding, filters reupload channels and words like "hot", "asmr" or "dating",
+and writes [`docs/videos.json`](docs/videos.json). The site scrolls endlessly through both lists.
+
+The hand-picked ones:
 
 | Category | Videos |
 |---|---|
@@ -95,17 +102,20 @@ Every DOI on this page and on the site was checked against Crossref and PubMed.
 ## How it works
 
 Plain HTML, CSS and JavaScript modules in [`docs/`](docs), served by GitHub Pages. No framework, no build step.
-Thumbnails come from `i.ytimg.com`; the player is YouTube's privacy-enhanced embed (`youtube-nocookie.com`) and loads
-only when you press play.
+Thumbnails come from `i.ytimg.com`; the player is YouTube's embed and loads only when you press play. It uses
+`youtube.com/embed`, so a YouTube login in the same browser counts and YouTube's "confirm you're not a bot" check
+(which mostly hits VPN connections) appears less often. When it does appear, the page explains it and links to YouTube.
 
 ```
 docs/
   index.html      header, navigation, entry dialog, footer
   style.css       the black and orange theme
-  data.js         the 13 studies, 7 categories and 36 videos
+  data.js         the 13 studies, 7 categories and 36 hand-picked videos
+  videos.json     the daily list from tools/fetch_videos.py
   app.js          hash router, grid, player, search, research table, November tracker
   readme/         banner source and the screenshots in this README
 tools/
+  fetch_videos.py   daily search: queries, trusted channels and filters per category
   videos_meta.json  video ids, titles and channels (YouTube oEmbed), lengths and views (YouTube search), 2026-10-31
   serve.py        local server with the right MIME types
   shots.py        clicks through every page in Chrome, fails on console errors, renders the README images
@@ -120,6 +130,7 @@ stored in `localStorage` and never leave the browser.
 ```sh
 python tools/serve.py 8090      # http://127.0.0.1:8090/
 python tools/shots.py           # smoke test + README images (needs: pip install playwright)
+python tools/fetch_videos.py    # refresh docs/videos.json by hand
 ```
 
 Suggest a video: [open an issue](https://github.com/eneserdo/nonuthub/issues/new) with the YouTube link and the category

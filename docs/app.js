@@ -1,4 +1,8 @@
-import { STUDIES, CATEGORIES, VIDEOS, FETCHED } from "./data.js";
+import { STUDIES, CATEGORIES, VIDEOS as PINNED, FETCHED } from "./data.js";
+
+// Hand-picked videos from data.js first, then the daily list from tools/fetch_videos.py (docs/videos.json).
+const more = await fetch("videos.json").then(r => r.ok ? r.json() : { videos: [] }).catch(() => ({ videos: [] }));
+const VIDEOS = [...PINNED, ...more.videos.filter(v => !PINNED.some(p => p.id === v.id) && CATEGORIES.some(c => c.id === v.cat))];
 
 const $ = (s, r = document) => r.querySelector(s);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -45,6 +49,14 @@ function card(v) {
   return a;
 }
 function grid(list) { const g = document.createElement("div"); g.className = "grid"; list.forEach(v => g.append(card(v))); return g; }
+function feed(list, step = 25) {                                        // grid that loads the next batch when you scroll near its end
+  const wrap = document.createElement("div"), g = grid([]), end = document.createElement("div"); let n = 0;
+  end.className = "loadmore"; wrap.append(g, end);
+  const next = () => { list.slice(n, n + step).forEach(v => g.append(card(v))); n += step; end.textContent = n < list.length ? "Loading more videos" : `That's all ${list.length}. New videos are added every day.`; return n < list.length; };
+  next();
+  const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting) && !next()) io.disconnect(); }, { rootMargin: "800px" });
+  io.observe(end); return wrap;
+}
 function helped(v) { const x = store("nnh-votes", {})[v.id]; return x ? x.up - x.down : null; }
 const SORTS = { recommended: ["Recommended", l => l], views: ["Most viewed", l => [...l].sort((a, b) => b.views - a.views)],
   short: ["Under 10 min", l => l.filter(v => v.sec < 600).sort((a, b) => a.sec - b.sec)], long: ["Longest", l => [...l].sort((a, b) => b.sec - a.sec)],
@@ -74,6 +86,9 @@ function home() {
     m.append(section(`${c.name} <small>${c.desc}</small>`, `<a class="more" href="#/videos?c=${c.id}">See all ${list.length}</a>`));
     m.append(grid(list.slice(0, 5)));
   }
+  const shown = new Set([...MIX.slice(0, 15), ...CATEGORIES.flatMap(c => VIDEOS.filter(v => v.cat === c.id).slice(0, 5))]);
+  m.append(section("Keep scrolling"));
+  m.append(feed(MIX.filter(v => !shown.has(v))));
 }
 
 function videos(q) {
@@ -82,7 +97,7 @@ function videos(q) {
   const list = SORTS[sort][1](cat ? VIDEOS.filter(v => v.cat === cat.id) : MIX);
   m.append(section(cat ? `${cat.name} <small>${list.length} videos</small>` : `All videos <small>${list.length}</small>`, sortBar(cat ? { c: cat.id } : {}, sort)));
   if (cat) { const p = document.createElement("p"); p.className = "catwhy"; p.innerHTML = `${esc(cat.why)} <span>${studyLinks(cat.studies)}</span>`; m.append(p); }
-  m.append(list.length ? grid(list) : Object.assign(document.createElement("p"), { className: "empty", textContent: "Nothing here yet. Rate a few videos with Helped or Didn't help and they show up here." }));
+  m.append(list.length ? feed(list) : Object.assign(document.createElement("p"), { className: "empty", textContent: "Nothing here yet. Rate a few videos with Helped or Didn't help and they show up here." }));
 }
 
 function categories() {
@@ -100,7 +115,7 @@ function search(q) {
   const m = main(); m.innerHTML = ""; const term = (q.q || "").trim(); $("#q").value = term;
   const words = term.toLowerCase().split(/\s+/).filter(Boolean);
   const hits = words.length ? VIDEOS.filter(v => words.every(w => `${v.title} ${v.ch} ${catOf(v).name}`.toLowerCase().includes(w))) : [];
-  if (hits.length) { m.append(section(`Results for "${esc(term)}" <small>${hits.length}</small>`)); m.append(grid(hits)); return; }
+  if (hits.length) { m.append(section(`Results for "${esc(term)}" <small>${hits.length}</small>`)); m.append(feed(hits)); return; }
   const box = document.createElement("div"); box.className = "noresults";
   box.innerHTML = `<h2>0 results for "${esc(term)}"</h2><p>Not here. The urge you searched with is real though, and it peaks and passes within minutes.
     Pick one of these and give it ten.</p>`;
@@ -120,7 +135,7 @@ function research() {
       <td><span class="tag">${s.type}</span></td><td>${esc(s.finding)}</td>
       <td>${used(id).map(c => `<a href="#/videos?c=${c.id}">${c.name}</a>`).join("") || (s.type === "Retracted" ? "Why the day 7 claim is out" : id === "gollwitzer" ? '<a href="#/streak">If-then plan</a>' : "Background")}</td></tr>`).join("")}
     </tbody></table>
-    <p class="fine">Video titles, channels, lengths and view counts are from YouTube on ${FETCHED}. The videos belong to their channels and play in YouTube's own player.</p>`;
+    <p class="fine">Video titles, channels, lengths and view counts are from YouTube (hand-picked list ${FETCHED}, daily list ${more.fetched || "not loaded"}). The videos belong to their channels and play in YouTube's own player.</p>`;
   m.append(box);
 }
 
@@ -161,6 +176,8 @@ function watch(id) {
       <div class="player"><img src="${img(v.id, "hqdefault")}" alt="">
         <button class="bigplay" aria-label="Play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
         <span class="dur">${clock(v.sec)}</span></div>
+      <p class="ythint" hidden>YouTube asks you to sign in or to confirm you're not a bot? That check comes from YouTube and mostly hits VPN
+        connections. Sign in to YouTube in this browser, pause the VPN, or <a href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener">watch it on YouTube</a>.</p>
       <h1>${esc(v.title)}</h1>
       <div class="vbar"><span class="views">${v.views.toLocaleString("en")} views on YouTube${v.age ? `, uploaded ${esc(v.age)}` : ""}</span>
         <div class="acts"><button class="vote up">Helped</button><button class="vote down">Didn't help</button>
@@ -179,8 +196,9 @@ function watch(id) {
   [...VIDEOS.filter(x => x.id !== id && x.cat === v.cat), ...MIX.filter(x => x.cat !== v.cat)].slice(0, 10).forEach(x => rel.append(card(x)));
   wrap.querySelector(".bigplay").onclick = () => {                     // YouTube's player loads only on click
     const p = store("nnh-plays", {}); p[id] = (p[id] || 0) + 1; save("nnh-plays", p);
-    wrap.querySelector(".player").innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${v.id}?autoplay=1&rel=0&modestbranding=1&playsinline=1"
+    wrap.querySelector(".player").innerHTML = `<iframe src="https://www.youtube.com/embed/${v.id}?autoplay=1&rel=0&playsinline=1&origin=${encodeURIComponent(location.origin)}"
       title="${esc(v.title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+    wrap.querySelector(".ythint").hidden = false;
   };
   const rb = wrap.querySelector(".ratebar i");
   const showVotes = () => { const x = store("nnh-votes", {})[id]; rb.style.width = x ? (100 * x.up / (x.up + x.down)) + "%" : "0";
@@ -206,6 +224,7 @@ function route() {
   window.scrollTo(0, 0);
 }
 
+$("#q").placeholder = `Search ${VIDEOS.length} videos you won't regret`;
 $("#search").onsubmit = e => { e.preventDefault(); location.hash = `#/search?q=${encodeURIComponent($("#q").value)}`; };
 $("#menu").onclick = () => document.body.classList.toggle("navopen");
 document.querySelectorAll(".nav a").forEach(a => a.addEventListener("click", () => document.body.classList.remove("navopen")));

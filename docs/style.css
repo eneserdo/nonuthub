@@ -95,6 +95,9 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .noresults h2 { margin: 0 0 8px; font-size: 22px; }
 .noresults p { margin: 0; max-width: 70ch; color: #cfcfcf; font-size: 15px; }
 .empty { color: var(--muted); }
+.loadmore { padding: 26px 0 6px; text-align: center; color: var(--dim); font-size: 13px; }
+.ythint { margin: 10px 0 0; padding: 10px 14px; background: var(--panel); border-left: 3px solid var(--or); color: #cfcfcf; font-size: 13px; }
+.ythint a { color: var(--or); font-weight: bold; }
 
 /* watch page */
 .watch { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 26px; margin-top: 22px; }
